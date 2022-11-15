@@ -1,20 +1,43 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen,}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test menu</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <style>
+      .menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: #fff;
+        display: grid;
+        place-content: center;
+      }
+      .header__menuBtn {
+        position: relative;
+        z-index: 10;
+      }
+    </style>
+    </head>
 <header>
     <header class="header">
         <a href="/">
-            <img src="../bbrands-agency/assets/icones/" alt="">
+            <img src="../2022-sae105-projet-Lucas-Chippaux/public/icones/discover-e_logo.svg" alt="">
         </a>
 
     <button>Menu</button> 
     <nav>
         <ul>
-            <li><a href="bladerunner.html">Blade Runner</a></li>
-            <li><a href="veridisquo.html">Veridis Quo</a></li>
-            <li><a href="lagloiredemonpere.html">La gloire de mon père</a></li>
-            <li><a href="centrepompidou.html">Centre Pompidou</a></li>
-            <li><a href="espoir.html">Espoir</a></li>
-            <li><a href="crainte.html">Crainte</a></li>
+            <p></p><li><a href="bladerunner.html">Blade Runner</a></li></p>
+            <p></p><li><a href="veridisquo.html">Veridis Quo</a></li></p>
+            <p></p><li><a href="lagloiredemonpere.html">La gloire de mon père</a></li></p>
+            <p></p><li><a href="centrepompidou.html">Centre Pompidou</a></li></p>
+            <p></p><li><a href="espoir.html">Espoir</a></li></p>
+            <li><a href="crainte.html">Crainte</a></li></p>
         </ul>
         </nav>
     <meta charset="UTF-8">
@@ -29,7 +52,7 @@
         <section>
     
         <h1>discover-e</h1>
-        <h2>Bienvenue</h2>
+        <h3>Bienvenue</h3>
         <h3>L’Art est la plus grande invention de l’humanité.
             Meme dans un monde où la technologie fait partie 
             de nos vies, l’Homme continu de créer et d’experimenter
@@ -60,16 +83,12 @@
             <h4>Blade Runner est un film qui dépeint un futur dystopique</h4>
         </article>
         <article>
-            <h2></h2>
+            <h2>Le réchauffement climatique, un espoir ?</h2>
             <img src="../2022-sae105-projet-Lucas-Chippaux/public/img/4.webp"/>
             <h4>Blade Runner est un film qui dépeint un futur dystopique</h4>
-        <article>
-            <h2>S'identifier à un inconnu</h2>
+            <h2>La fin des métiers artistiques</h2>
             <img src="../2022-sae105-projet-Lucas-Chippaux/public/img/5.webp"/>
             <h4>Blade Runner est un film qui dépeint un futur dystopique</h4>
-        </article>
- 
-
         </article>
 
         </section>
@@ -77,7 +96,11 @@
 </main>
 
 <footer>
-    <a href="mailtolucas.chippaux@gmail.com">lucas.chippaux@gmail.com</a>
+    <p><li><a href="glossaire.html">Glossaire</a></li></p>
+    <p></p><li><a href="apropos.html">A propos</a></li></p>
+    <p></p><li><a href="contact.html">Contact</a></li></p>
+    <p></p><li><a href="autresprojets.html">Autres projets</a></li></p>
+    <a href="mailto:lucas.chippaux@gmail.com">lucas.chippaux@gmail.com</a>
 </footer>
     
 </body>

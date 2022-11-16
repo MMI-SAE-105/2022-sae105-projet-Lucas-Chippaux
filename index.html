@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="fr" x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen,}">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Test menu</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>discover-e</title>
     <script defer src="https://unpkg.com/alpinejs"></script>
     <style>
       .menu {
@@ -26,11 +26,25 @@
 <header>
     <header class="header">
         <a href="/">
-            <img src="../2022-sae105-projet-Lucas-Chippaux/public/icones/discover-e_logo.svg" alt="">
+            <img src="../2022-sae105-projet-Lucas-Chippaux/public/icones/discover-e_logo.svg" alt="logo discover-e">
         </a>
 
-    <button>Menu</button> 
-    <nav>
+        <body>
+            <header>
+              <button 
+              aria-controls="mainNav" 
+              @click="menuIsOpen = ! menuIsOpen"
+              class="header__menuBtn"
+            >
+            menu
+        </button>
+        <h1>Menu</h1>
+        <nav 
+        id="mainNav"
+        x-show="menuIsOpen"
+        x-transition.duration.800ms
+        class="menu"
+      >
         <ul>
             <p></p><li><a href="bladerunner.html">Blade Runner</a></li></p>
             <p></p><li><a href="veridisquo.html">Veridis Quo</a></li></p>
@@ -39,13 +53,8 @@
             <p></p><li><a href="espoir.html">Espoir</a></li></p>
             <li><a href="crainte.html">Crainte</a></li></p>
         </ul>
-        </nav>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>discover-e</title>
-    
-</header>
+    </nav>
+    </header>
 
 <body>
     <main>

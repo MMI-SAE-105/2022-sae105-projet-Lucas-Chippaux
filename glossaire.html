@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen,}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>discover-e</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <style>
+      .menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: #fff;
+        display: grid;
+        place-content: center;
+      }
+      .header__menuBtn {
+        position: relative;
+        z-index: 10;
+      }
+    </style>
+    </head>
+<header>
+    <header class="header">
+        <a href="/">
+            <img src="../2022-sae105-projet-Lucas-Chippaux/public/icones/discover-e_logo.svg" alt="logo discover-e">
+        </a>
+
+        <body>
+            <header>
+              <button 
+              aria-controls="mainNav" 
+              @click="menuIsOpen = ! menuIsOpen"
+              class="header__menuBtn"
+            >
+            menu
+        </button>
+        <nav 
+        id="mainNav"
+        x-show="menuIsOpen"
+        x-transition.duration.800ms
+        class="menu"
+      >
+        <ul>
+            <p></p><li><a href="bladerunner.html">Blade Runner</a></li></p>
+            <p></p><li><a href="veridisquo.html">Veridis Quo</a></li></p>
+            <p></p><li><a href="lagloiredemonpere.html">La gloire de mon père</a></li></p>
+            <p></p><li><a href="centrepompidou.html">Centre Pompidou</a></li></p>
+            <p></p><li><a href="espoir.html">Espoir</a></li></p>
+            <li><a href="crainte.html">Crainte</a></li></p>
+        </ul>
+    </nav>
+    </header>
+
+<body>
+    <main>
+        <section>
+            <h1>Glossaire</h1>
+
+            <h2>Science-Fiction :</h2>
+            <h3>Genre artistique décrivant un monde futuriste avec des nouvelles technologies développées.</h3>
+            <h2>Cyberpunk :</h2>
+            <h3>Mouvement et sous genre de la science-fiction, né dans les années 70, représente une ville monde, une dépendance technologique, le transhumanisme, un futur sombre souvent avec des propos politiques.</h3>
+            <h2>French Touch :</h2>
+            <h3>Mouvement et sous genre de la house, né en France dans les années 90, il s’agit d’une musique aux multiples influences (funk, disco...)</h3>
+            <h2>La Treille :</h2>
+            <h3>Quartier d’environ 820 habitants, situé à Marseille en France.</h3>
+            <h2>Banksy :</h2>
+            <h3>Artiste britannique né en 1974, graffeur connu pour ses pochoirs urbains. On en connait sa véritable identité. </h3>
+            <h2>Lorenzo Quinn :</h2>
+            <h3>Artiste italien né en 1966, peintre et sculpteur connu pour son engagement écologique.</h3>
+            <h2>Web :</h2>
+            <h3>World Wide Web, permet d’avoir accès aux différents sites et contenus sur internet à l’aide d’un navigateur (Google Chrome, Mozilla Firefox, Saphari...)</h3>
+            <h2>IA (Intelligence Artificielle) :</h2>
+            <h3>Ensemble de machines programmées dont le but est d’imiter l’intelligence humaine ainsi que ces comportements.</h3>
+            <h2>Deep Fake :</h2>
+            <h3>Technique reposant sur l’IA, consistant à remplacer un visage par un autre numériquement .</h3>
+            <h2>Futur dystopique :</h2>
+            <h3>Récit de fiction montrant une société dans un futur qui aurait mal tourné : la mauvaise utilisation de nouvelles technologies ou la mise en place d’un pouvoir totalitaire sont deux thèmes très présents dans ce genre de récit.</h3>
+
+        </section>
+
+      </main>
+        
+<footer>
+          <p><li><a href="glossaire.html">Glossaire</a></li></p>
+          <p></p><li><a href="apropos.html">A propos</a></li></p>
+          <p></p><li><a href="contact.html">Contact</a></li></p>
+          <p></p><li><a href="autresprojets.html">Autres projets</a></li></p>
+          <a href="mailto:lucas.chippaux@gmail.com">lucas.chippaux@gmail.com</a>
+</footer>
+            
+</body>
+</html>

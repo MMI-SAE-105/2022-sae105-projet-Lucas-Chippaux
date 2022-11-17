@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen,}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page d'accueil</title>
+    <link rel="icon" href="../public/img/logo onglet.png">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <style>
+      .menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: #fff;
+        display: grid;
+        place-content: center;
+      }
+      .header__menuBtn {
+        position: relative;
+        z-index: 10;
+      }
+    </style>
+    </head>
+<header>
+    <header class="header">
+    <a href="homepage.html">
+        <img src="../public/icones/discover-e_logo.svg" alt="logo discover-e">
+    </a>
+    <a href="index.html">
+        <img src="../public/icones/fr flag.svg" alt="fr flag">
+    </a>
+        <body>
+            <header>
+              <button 
+              aria-controls="mainNav" 
+              @click="menuIsOpen = ! menuIsOpen"
+              class="header__menuBtn">
+              <img src="../public/icones/menu.svg" alt="menu">
+        </button>
+        <nav 
+        id="mainNav"
+        x-show="menuIsOpen"
+        x-transition.duration.800ms
+        class="menu"
+      >
+        <ul>
+            <p></p><li><a href="bladerunner.html">Blade Runner</a></li></p>
+            <p></p><li><a href="veridisquo.html">Veridis Quo</a></li></p>
+            <p></p><li><a href="lagloiredemonpere.html">La gloire de mon père</a></li></p>
+            <p></p><li><a href="centrepompidou.html">Centre Pompidou</a></li></p>
+            <p></p><li><a href="espoir.html">Espoir</a></li></p>
+            <li><a href="crainte.html">Crainte</a></li></p>
+        </ul>
+    </nav>
+    </header>
+
+<body>
+    <main>
+        <section>
+    
+        <h3>Bienvenue</h3>
+        <h3>L’Art est la plus grande invention de l’humanité.
+            Meme dans un monde où la technologie fait partie 
+            de nos vies, l’Homme continu de créer et d’experimenter
+            pour établir un constat de notre époque.
+            Bref l’Art est puissant et ce site en est le témoignage.</h3>
+    
+        </section>
+
+        <section>
+
+        <article>
+            <h2>Ce film qui imagine un futur horrible</h2>
+            <img src="../public/img/Accueil/image 73.webp"/>
+            <h4>Blade Runner est un film qui dépeint un futur dystopique</h4>
+        </article>
+        <article>
+            <h2>4 accords, 1000 interprétations...</h2>
+            <img src="../public/img/Accueil/image 19.webp"/>"
+            <h4>Une musique capable d'exprimer plusieurs émotions</h4>
+        <article>
+            <h2>S'identifier à un inconnu</h2>
+            <img src="../public/img/Accueil/image 74.webp"/>
+            <h4>Peut-on s'identifier à quelqu'un par la force des mots ?</h4>
+        </article>
+        <article>
+            <h2>Le centre des arts</h2>
+            <img src="../public/img/Accueil/image 21.webp"/>
+            <h4>Le lieu reunissant les plus grandes oeuvres de ces dernières années</h4>
+        </article>
+        <article>
+            <h2>Le réchauffement climatique, un espoir ?</h2>
+            <img src="../public/img/Accueil/image 22.webp"/>
+            <h4>Et si il y avait une solution sous nos yeux ?</h4>
+            <h2>La fin des métiers artistiques</h2>
+            <img src="../public/img/Accueil/image 23.webp"/>
+            <h4>Graphiste, peintre, photographe : une fin imminente...</h4>
+        </article>
+
+        </section>
+
+</main>
+
+<footer>
+ <div>
+ <ul>
+    <p><li><a href="glossaire.html">Glossaire</a></li></p>
+    <p><li><a href="apropos.html">A propos</a></li></p>
+    <p><li><a href="contact.html">Contact</a></li></p>
+    <p><li><a href="autresprojets.html">Autres projets</a></li></p>
+
+
+    <div style='display:flex'></div>
+    <div><a href="https://www.youtube.com/channel/UCb55VMSoRkX2260uyUtXZ4w/videos?view_as=subscriber" aria-label="youtube"><img src="../public/icones/youtube.svg" alt="icone youtube"></a></div>
+    <div><a href="https://twitter.com/wax_mp4" aria-label="twitter"><img src="../public/icones/twitter.svg" alt="icone twitter"></a></div>
+    <div><a href="https://www.instagram.com/luc.mp4/" aria-label="instagram"><img src="../public/icones/instagram.svg" alt="icone instagram"></a></div>
+    <div><a href="https://www.linkedin.com/in/lucas-chippaux-214bb2252/" aria-label="linkedin"><img src="../public/icones/linkedin.svg" alt="icone linkedin"></a></div>
+ </div>
+</ul>   
+    <a href="mailto:lucas.chippaux@gmail.com">lucas.chippaux@gmail.com</a>
+    <p>Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</p>
+    <p>Lucas CHIPPAUX MMI 1</p>
+    <a href="http://mmimontbeliard.com"aria-label="youtube"><img src="../public/icones/MMI_dut_black_png 1.svg" alt="MMI logo"></a></li>
+</footer>
+    
+</body>
+</html>

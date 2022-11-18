@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen,}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="icon" href="../public/img/logo onglet.png">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <style>
+      .menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: #fff;
+        display: grid;
+        place-content: center;
+      }
+      .header__menuBtn {
+        position: relative;
+        z-index: 10;
+      }
+    </style>
+    </head>
+<header>
+    <header class="header">
+        <a href="homepage.html">
+          <img src="../public/icones/discover-e_logo.svg" alt="logo discover-e">
+          <a href="../fr/apropos.html">
+          <img src="../public/icones/fr flag.svg" alt="fr flag">
+        </a>
+        </a>
+
+        <body>
+            <header>
+              <button 
+              aria-controls="mainNav" 
+              @click="menuIsOpen = ! menuIsOpen"
+              class="header__menuBtn">
+              <img src="../public/icones/menu.svg" alt="menu">
+        </button>
+        <nav 
+        id="mainNav"
+        x-show="menuIsOpen"
+        x-transition.duration.800ms
+        class="menu"
+      >
+        <ul>
+          <p><li><a href="bladerunner2.html">Blade Runner</a></li></p>
+          <p><li><a href="veridisquo2.html">Veridis Quo</a></li></p>
+          <p><li><a href="fatherglory.html">My Father's Glory</a></li></p>
+          <p><li><a href="centerpompidou.html">Centre Pompidou</a></li></p>
+          <p><li><a href="hope.html">Hope</a></li></p>
+          <p><li><a href="fear.html">Fear</a></li></p>
+        </ul>
+        </nav>
+
+ <body>
+    <main>
+        <section>
+    
+        <h2>Hello !</h2>
+        <h3>My name is Lucas Chippaux, I am 18 years old and I am doing this project as part of my studies at the MMI department in Montbéliard. </h3>
+        <h3>The aim of the project "Notes for later" is to leave an imprint of our time. To understand the problems of our world and maybe propose solutions.</h3>
+        <h3>I chose to present a film, a music, a book, a place, a hope and a fear.</h3>
+        <h3>For the film, I chose "Blade Runner" by Ridley Scott, a feature film about a dystopian future and a critique of our current society. It's interesting to see the possible paths that man can take to reach this way of life.</h3>
+        <h3>As a book, I took "La gloire de mon père" by Marcel Pagnol, an autobiographical book which tells the story of the author's youth. This book is universal because of its subject matter: everyone can identify with Pagnol's anecdotes.</h3>
+        <h3>For the music, I chose a famous track by Daft Punk: "Veridis Quo". The power of this music is the fact of feeling emotions without any words.</h3>
+        <h3>For the location, I chose "Le centre Pompidou" because it is a precious place of contemporary art. I visited it and I found it interesting to see different creations of different artists and to see their visions of the world.</h3>
+        <h3>For hope, I think about global warming. It is a main problem of our society, and I hope that our generation or the next one can find a solution to this problem that affects us all. Art would also be a good way to educate and inform the youngest about this danger for humanity.</h3>
+        <h3>For the fear, I chose the misuse of new technologies, especially AI, which is evolving at great speed. This could lead to the end of certain professions, whether artistic or manual.</h3>
+        <h3>Of course, we live in a complicated world where many problems are present, but I have hope in our generation and the good thinking of some.</h3>
+    </main>
+    
+        </section>
+        <footer>
+          <div>
+          <ul>
+             <p><li><a href="glossary.html">Glossary</a></li></p>
+             <p><li><a href="about.html">About</a></li></p>
+             <p><li><a href="contact2.html">Contact</a></li></p>
+             <p><li><a href="other projects.html">Other projects</a></li></p>
+         
+         
+             <div style='display:flex'></div>
+             <div><a href="https://www.youtube.com/channel/UCb55VMSoRkX2260uyUtXZ4w/videos?view_as=subscriber" aria-label="youtube"><img src="../public/icones/youtube.svg" alt="icone youtube"></a></div>
+             <div><a href="https://twitter.com/wax_mp4" aria-label="twitter"><img src="../public/icones/twitter.svg" alt="icone twitter"></a></div>
+             <div><a href="https://www.instagram.com/luc.mp4/" aria-label="instagram"><img src="../public/icones/instagram.svg" alt="icone instagram"></a></div>
+             <div><a href="https://www.linkedin.com/in/lucas-chippaux-214bb2252/" aria-label="linkedin"><img src="../public/icones/linkedin.svg" alt="icone linkedin"></a></div>
+          </div>
+         </ul>   
+             <a href="mailto:lucas.chippaux@gmail.com">lucas.chippaux@gmail.com</a>
+             <p>Project carried out as part of an educational exercise at the MMI department of Montbéliard</p>
+             <p>Lucas CHIPPAUX MMI1 A1</p>
+             <a href="http://mmimontbeliard.com"aria-label="youtube"><img src="../public/icones/MMI_dut_black_png 1.svg" alt="MMI logo"></a></li>
+         </footer>
+             
+         </body>
+         </html>

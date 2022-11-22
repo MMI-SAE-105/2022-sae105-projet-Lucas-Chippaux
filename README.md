@@ -1,6 +1,6 @@
 - NOM : CHIPPAUX
 - PRÉNOM : Lucas
-- URL du site :
+- URL du site : https://discover-e.lucaschippaux.fr/
 - URL FIGMA : https://www.figma.com/file/hQfh0UabvYSVbpztASJ2MJ/Maquettes-projet-individuel-%E2%80%94-Lucas-CHIPPAUX?node-id=820%3A835&t=GFvSKs3cKV32VeBF-1
 
 # Structure de départ pour le projet individuel.

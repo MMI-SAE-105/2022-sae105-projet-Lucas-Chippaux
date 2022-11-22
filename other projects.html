@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen,}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Other projects</title>
+    <link rel="icon" href="../2022-sae105-projet-Lucas-Chippaux/public/icones/logo_onglet.svg">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <style>
+      .menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: #fff;
+        display: grid;
+        place-content: center;
+      }
+      .header__menuBtn {
+        position: relative;
+        z-index: 10;
+      }
+    </style>
+    </head>
+<header>
+    <header class="header">
+        <a href="homepage.html">
+          <img src="../public/icones/discover-e_logo.svg" alt="logo discover-e">
+          <a href="autresprojets.html">
+          <img src="../2022-sae105-projet-Lucas-Chippaux/public/icones/fr_flag.svg" alt="fr flag">
+        </a>
+        </a>
+
+        <body>
+            <header>
+              <button 
+              aria-controls="mainNav" 
+              @click="menuIsOpen = ! menuIsOpen"
+              class="header__menuBtn">
+              <img src="../public/icones/menu.svg" alt="menu">
+        </button>
+        <nav 
+        id="mainNav"
+        x-show="menuIsOpen"
+        x-transition.duration.800ms
+        class="menu"
+      >
+        <ul>
+          <p><li><a href="bladerunner2.html">Blade Runner</a></li></p>
+          <p><li><a href="veridisquo2.html">Veridis Quo</a></li></p>
+          <p><li><a href="fatherglory.html">My Father's Glory</a></li></p>
+          <p><li><a href="centerpompidou.html">Centre Pompidou</a></li></p>
+          <p><li><a href="hope.html">Hope</a></li></p>
+          <p><li><a href="fear.html">Fear</a></li></p>
+        </ul>
+    </nav>
+ </header>
+ <body>
+  <main>
+    <h1>
+        Other projects
+    </h1>
+    <p>
+        Here, the other MMI A1 projects!
+    </p>
+    <ul>
+        <a href="">
+            <li><span>Sweet Old Times</span>Jaël Amemoutou</li>
+        </a><a href="">
+            <li><span>Tengu Road</span>Lucas Bardey</li>
+        <a href="">
+            <li><span>Rake Over the Ashes</span>Alexis Bernard</li>
+        </a><a href="http://reversefootage.timeobinda.fr/">
+            <li><span>reversefootage</span>Timéo Binda</li>
+        </a>
+        <a href="">
+            <li><span>Dicta</span>Chloé Bizet</li>
+         </a><a href="">
+            <li><span>Back To Back</span>Gaspard Bondy</li>
+        <a href="">
+            <li><span>Wikipeace</span>Yannis Borel</li>
+        </a><a href="">
+            <li><span>Jibun</span>Emilien Boucard</li>
+        <a href="">
+            <li><span>Reminder</span>Lisa Bugnet</li>
+        </a><a href="">
+            <li><span>Mon Nindo</span>Ayrton Chaves</li>
+        </a>
+        <a href="">
+            <li><span>Mind_Uploading.exe</span>Lisa Cingolani</li>
+         </a><a href="">
+            <li><span>As Time Flies</span>Dalil Hammachi</li>
+        </a><a href="">
+            <li><span>Timeproof Cybersoul</span>Zoé-Augustine Vicat</li>
+            
+        </a>
+
+    </ul>
+</main>
+ </body>
+ <footer>
+  <div>
+  <ul>
+     <p><li><a href="glossary.html">Glossary</a></li></p>
+     <p><li><a href="about.html">About</a></li></p>
+     <p><li><a href="contact2.html">Contact</a></li></p>
+     <p><li><a href="autresprojets.html">Autres projets</a></li></p>
+ 
+ 
+     <div style='display:flex'></div>
+     <div><a href="https://www.youtube.com/channel/UCb55VMSoRkX2260uyUtXZ4w/videos?view_as=subscriber" aria-label="youtube"><img src="../public/icones/youtube.svg" alt="icone youtube"></a></div>
+     <div><a href="https://twitter.com/wax_mp4" aria-label="twitter"><img src="../public/icones/twitter.svg" alt="icone twitter"></a></div>
+     <div><a href="https://www.instagram.com/luc.mp4/" aria-label="instagram"><img src="../public/icones/instagram.svg" alt="icone instagram"></a></div>
+     <div><a href="https://www.linkedin.com/in/lucas-chippaux-214bb2252/" aria-label="linkedin"><img src="../public/icones/linkedin.svg" alt="icone linkedin"></a></div>
+  </div>
+ </ul>   
+     <a href="mailto:lucas.chippaux@gmail.com">lucas.chippaux@gmail.com</a>
+     <p>Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</p>
+     <p>Lucas CHIPPAUX MMI1 A1</p>
+     <a href="http://mmimontbeliard.com"aria-label="youtube"><img src="../public/icones/MMI_dut_black_png 1.svg" alt="MMI logo"></a></li>
+ </footer>
+     
+ </body>
+ </html>

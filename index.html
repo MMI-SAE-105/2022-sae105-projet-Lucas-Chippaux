@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="fr" x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen,}">
-  <head>
-    <link rel="stylesheet" href="src/css/base/main.css">
+<html lang="fr"x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen">
+<head>
+    <link rel="stylesheet" href="src/css/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page d'accueil</title>
-    <link rel="icon" href="public/icones/logo_onglet.svg">
+    <title>discover-e</title>
+    <link rel="icon" href="public/img/icones/logo_reverse_footage_noir.svg">
     <script defer src="https://unpkg.com/alpinejs"></script>
     <style>
       .menu {
@@ -24,119 +24,163 @@
         z-index: 10;
       }
     </style>
-    </head>
-<header>
-    <a href="index.html">
-        <img src="../public/icones/discover-e_logo.svg" alt="logo discover-e">
-    </a>
-    <a href="homepage.html">
-        <img src="../public/icones/eng_flag.svg" alt="eng flag">
-    </a>
-            <header>
-              <button 
-              aria-controls="mainNav" 
-              @click="menuIsOpen = ! menuIsOpen"
-              class="header__menuBtn">
-              <img src="../public/icones/menu.svg" alt="menu">
+</head>
+<body class="body">
+     
+    <header class="header">
+        
+        <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen"
+        class="header__menuBtn">
+            <img src="public/img/icones/menu.svg" alt="icone Menu">
         </button>
-        <nav 
-        id="mainNav"
-        x-show="menuIsOpen"
-        x-transition.duration.800ms
-        class="menu"
-      >
-        <ul>
-            <p><li><a href="bladerunner.html">Blade Runner</a></li></p>
-            <p><li><a href="veridisquo.html">Veridis Quo</a></li></p>
-            <p><li><a href="lagloiredemonpere.html">La gloire de mon père</a></li></p>
-            <p><li><a href="centrepompidou.html">Centre Pompidou</a></li></p>
-            <p><li><a href="espoir.html">Espoir</a></li></p>
-            <p><li><a href="crainte.html">Crainte</a></li></p>
-        </ul>
-    </nav>
+        <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms
+
+        class="menu">
+            <img class="cross" src="public/img/icones/cross.svg" alt="">
+            <ul class="menu__articles">
+                <li class="menu__item"><a href="bladerunner.html"><img src="public/img/icones/film_icone.svg" alt="Icone film">Blade Runner</a></li>
+                <li class="menu__item"><a href="Veridis Quo.html"><img src="public/img/icones/music_icone.svg" alt="Icone music">Veridis Quo</a></li>
+                <li class="menu__item"><a href="La gloire de mon père.html"><img src="public/img/icones/livre_icone.svg" alt="Icone livre">La gloire de mon père</a></li>
+                <li class="menu__item"><a href="Centre Pompidou.html"><img src="public/img/icones/lieu_icone.svg" alt="Icone lieu">Centre Pompidou</a></li>
+                <li class="menu__item"><a href="espoir.html"><img src="public/img/icones/espoir_icone.svg" alt="Icone espoir">Espoir</a></li>
+                <li class="menu__item"><a href="crainte.html"><img src="public/img/icones/crainte_icone.svg" alt="icone crainte">Crainte</a></li>
+            </ul>
+
+        </nav>
+
+
+        <a class="header__logo" href="/">
+            <img src="public/img/icones/discover-e_logo.svg" alt="Logo_discover-e">
+        </a>
+
+
+        <a href="index.html">
+            <img src="../public/icones/discover-e_logo.svg" alt="logo discover-e">
+        </a>
+        <a href="homepage.html">
+            <img src="../public/icones/eng_flag.svg" alt="eng flag">
+        </a>
     </header>
 
-<body>
+
     <main>
-        <section>
-    
-        <h1 class="h1">Bienvenue</h1>
-        <h3>L’Art est la plus grande invention de l’humanité.
+        <img class="couv__home" src="public/img/Photos/Accueil/clap_popcorn_camera.webp" alt="">
+        <h1 class="h1">
+            Bienvenue
+        </h1>
+        <p class="p">
+            L’Art est la plus grande invention de l’humanité.
             Meme dans un monde où la technologie fait partie 
             de nos vies, l’Homme continu de créer et d’experimenter
             pour établir un constat de notre époque.
-            Bref l’Art est puissant et ce site en est le témoignage.</h3>
-    
-        </section>
+            Bref l’Art est puissant et ce site en est le témoignage.
+        </p>
 
         <section>
+            <article class="card">
+                <h2 class="card__title">
+                    Ce film imagine un futur horrible
+                </h2>
+                 <a href="bladerunner.html">
+                    <img class="card__img"src="public/img/Accueil/blade_runner" alt="photo blade runner">
+                <p class="card__description">
+                    Blade Runner est un film qui dépeint un futur dystopique                    
+                   </p>                   
+                </a>
+            </article>
 
-        <article>
-          <a href="bladerunner.html">
-            <h2>Ce film qui imagine un futur horrible</h2>
-            <img src="../public/img/Accueil/blade_runner.webp"/>
-            <h4>Blade Runner est un film qui dépeint un futur dystopique</h4>
-          </a>
-        </article>
-        <article>
-          <a href="veridisquo.html">
-            <h2>4 accords, 1000 interprétations...</h2>
-            <img src="../public/img/Accueil/daft_punk.webp"/>
-            <h4>Une musique capable d'exprimer plusieurs émotions</h4>
-          </a>
-        <article>
-          <a href="lagloiredemonpere.html">
-            <h2>S'identifier à un inconnu</h2>
-            <img src="../public/img/Accueil/gloire_pere.webp"/>
-            <h4>Peut-on s'identifier à quelqu'un par la force des mots ?</h4>
-          </a>
-        </article>
-        <article>
-          <a href="centrepompidou.html">
-            <h2>Le centre des arts</h2>
-            <img src="../public/img/Accueil/pompidou.webp"/>
-            <h4>Le lieu reunissant les plus grandes oeuvres de ces dernières années</h4>
-          </a>
-        </article>
-        <article>
-          <a href="espoir.html">
-            <h2>Le réchauffement climatique, un espoir ?</h2>
-            <img src="../public/img/Accueil/espoir.webp"/>
-            <h4>Et si il y avait une solution sous nos yeux ?</h4>
-          </a>
-          <article>
-          <a href="crainte.html">
-            <h2>La fin des métiers artistiques</h2>
-            <img src="../public/img/Accueil/crainte.webp"/>
-            <h4>Graphiste, peintre, photographe : une fin imminente...</h4>
-          </a>
-        </article>
+            <article class="card">
+                <h2 class="card__title">
+                    4 accords, 1000 interprétations
+                </h2>
+                 <a href="veridisquo.html">
+                    <img class="card__img"src="public/img/Accueil/daft_punk" alt="photo daft punk">
+                <p class="card__description">
+                    Une musique capable d'exprimer plusieurs émotions
+                    </p>                   
+                </a>
+            </article>
 
+            <article class="card">
+                <h2 class="card__title">
+                    S'identifier à un inconnu
+                </h2>
+                 <a href="lagloiredemonpere.html">
+                    <img class="card__img"src="public/img/Accueil/gloire_pere" alt="photo gloire de mon père">
+                <p class="card__description">
+                    Peut-on s'identifier à quelqu'un par la force des mots ?
+                    </p>                   
+                </a>
+            </article>
+
+            <article class="card">
+                <h2 class="card__title">
+                    Le centre des arts
+                </h2>
+                 <a href="centrepompidou.html">
+                    <img class="card__img"src="public/img/Accueil/pompidou" alt="photo pompidou">
+                <p class="card__description">
+                    Le lieu reunissant les plus grandes oeuvres de ces dernières années                    
+                    </p>                   
+                </a>
+            </article>
+
+            <article class="card">
+                <h2 class="card__title">
+                    Le réchauffement climatique, un espoir ?
+                </h2>
+                 <a href="espoir.html">
+                    <img class="card__img"src="public/img/Accueil/espoir" alt="photo espoir">
+                <p class="card__description">
+                    Et si il y avait une solution sous nos yeux ?                    
+                    </p>                   
+                </a>
+            </article>
+
+            <article class="card">
+                <h2 class="card__title">
+                    La fin des métiers artistiques
+                </h2>
+                 <a href="crainte.html">
+                    <img class="card__img"src="public/img/Accueil/crainte" alt="photo crainte">
+                <p class="card__description">
+                    Et si il y avait une solution sous nos yeux ?                   
+                    </p>                   
+                </a>
+            </article>
         </section>
 
-</main>
-
-<footer>
- <div>
- <ul>
-    <p><li><a href="glossaire.html">Glossaire</a></li></p>
-    <p><li><a href="apropos.html">A propos</a></li></p>
-    <p><li><a href="contact.html">Contact</a></li></p>
-    <p><li><a href="autresprojets.html">Autres projets</a></li></p>
-
-
-    <div style='display:flex'></div>
-    <div><a href="https://www.youtube.com/channel/UCb55VMSoRkX2260uyUtXZ4w/videos?view_as=subscriber" aria-label="youtube"><img src="../public/icones/youtube.svg" alt="icone youtube"></a></div>
-    <div><a href="https://twitter.com/wax_mp4" aria-label="twitter"><img src="../public/icones/twitter.svg" alt="icone twitter"></a></div>
-    <div><a href="https://www.instagram.com/luc.mp4/" aria-label="instagram"><img src="../public/icones/instagram.svg" alt="icone instagram"></a></div>
-    <div><a href="https://www.linkedin.com/in/lucas-chippaux-214bb2252/" aria-label="linkedin"><img src="../public/icones/linkedin.svg" alt="icone linkedin"></a></div>
- </div>
-</ul>   
-    <a href="mailto:lucas.chippaux@gmail.com">lucas.chippaux@gmail.com</a>
-    <p>Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</p>
-    <p>Lucas CHIPPAUX MMI1 A1</p>
-    <a href="http://mmimontbeliard.com" aria-label="mmi_logo"><img src="public/icones/MMI_dut_white.svg" alt="MMI logo"></a>
-</footer>
+    </main>
     
+    <footer class="footer">
+     <div>
+        <ul>
+            <p><li><a href="glossaire.html">Glossaire</a></li></p>
+            <p><li><a href="apropos.html">A propos</a></li></p>
+            <p><li><a href="contact.html">Contact</a></li></p>
+            <p><li><a href="autresprojets.html">Autres projets</a></li></p>
+           
+           
+            <div style='display:flex'></div>
+            <div><a href="https://www.youtube.com/channel/UCb55VMSoRkX2260uyUtXZ4w/videos?view_as=subscriber" aria-label="youtube"><img src="../public/icones/youtube.svg" alt="icone youtube"></a></div>
+            <div><a href="https://twitter.com/wax_mp4" aria-label="twitter"><img src="../public/icones/twitter.svg" alt="icone twitter"></a></div>
+            <div><a href="https://www.instagram.com/luc.mp4/" aria-label="instagram"><img src="../public/icones/instagram.svg" alt="icone instagram"></a></div>
+            <div><a href="https://www.linkedin.com/in/lucas-chippaux-214bb2252/" aria-label="linkedin"><img src="../public/icones/linkedin.svg" alt="icone linkedin"></a></div>
+     </div>
+        </ul>   
+        <a class="footer__mail" href="lucas.chippaux@gmail.com">lucas.chippaux@gmail.com</a>
+        <p class="footer__explication">
+            Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard
+        </p>
+        <p class="footer__nom">
+            Lucas CHIPPAUX MMI 1 A1
+        </p>
+        <a class="footer__logommi" href="http://mmimontbeliard.com/" target="_blank">
+            <img src="public/icones/MMI_dut_white" alt="Logo MMI Montbéliard">
+        </a>
+        
+        
+    </footer>
+     
 </body>
 </html>

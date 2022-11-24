@@ -24,7 +24,7 @@
         z-index: 10;
       }
     </style>
-    </head>
+</head>
 
 <body class="body">
      
@@ -38,77 +38,86 @@
         id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms 
         class="menu">
         
-        <ul>
-            <p><li><a href="/fr/bladerunner.html">Blade Runner</a></li></p>
-            <p><li><a href="/fr/veridisquo.html">Veridis Quo</a></li></p>
-            <p><li><a href="/fr/lagloiredemonpere.html">La gloire de mon père</a></li></p>
-            <p><li><a href="/fr/centrepompidou.html">Centre Pompidou</a></li></p>
-            <p><li><a href="/fr/espoir.html">Espoir</a></li></p>
-            <p><li><a href="/fr/crainte.html">Crainte</a></li></p>
+        <ul class="menu__item">
+            <p><li class="menu__item"><a href="/fr/bladerunner.html">Blade Runner</a></li></p>
+            <p><li class="menu__item"><a href="/fr/veridisquo.html">Veridis Quo</a></li></p>
+            <p><li class="menu__item"><a href="/fr/lagloiredemonpere.html">La gloire de mon père</a></li></p>
+            <p><li class="menu__item"><a href="/fr/centrepompidou.html">Centre Pompidou</a></li></p>
+            <p><li class="menu__item"><a href="/fr/espoir.html">Espoir</a></li></p>
+            <p><li class="menu__item"><a href="/fr/crainte.html">Crainte</a></li></p>
         </ul>
     </nav>
     
-      <a href="index.html">
+      <a class="header__logo" href="index.html">
          <img src="public/icones/discover-e_logo.svg" alt="logo discover-e">
       </a>
-      <a href="/en/index_eng.html">
+      <a class="header__translate" href="/en/index_eng.html">
         <img src="public/icones/eng_flag.svg" alt="eng flag">
       </a>
+
     </header>
 
-<body>
+
     <main>
-        <section>
     
-        <h1 class="h1">Bienvenue</h1>
-        <h3>L’Art est la plus grande invention de l’humanité.
+        <h1 class="h1">
+            Bienvenue
+        </h1>
+        <p class="p">
+            L’Art est la plus grande invention de l’humanité.
             Meme dans un monde où la technologie fait partie 
             de nos vies, l’Homme continu de créer et d’experimenter
             pour établir un constat de notre époque.
             Bref l’Art est puissant et ce site en est le témoignage.</h3>
-    
-        </section>
+        </p>
 
         <section>
 
-        <article>
+         <article class="card">
           <a href="/fr/bladerunner.html">
-            <h2>Ce film qui imagine un futur horrible</h2>
-            <img src="public/img/Accueil/blade_runner.webp"/>
-            <h4>Blade Runner est un film qui dépeint un futur dystopique</h4>
+            <h2 class="card__title">Ce film qui imagine un futur horrible</h2>
+            <img class="card__img" src="public/img/Accueil/blade_runner.webp"/>
+            <p class="card__description">Blade Runner est un film qui dépeint un futur dystopique</p>
           </a>
         </article>
-        <article>
+
+        <article class="card">
           <a href="/fr/veridisquo.html">
-            <h2>4 accords, 1000 interprétations...</h2>
-            <img src="public/img/Accueil/daft_punk.webp"/>
-            <h4>Une musique capable d'exprimer plusieurs émotions</h4>
+            <h2 class="card__title">4 accords, 1000 interprétations...</h2>
+            <img class="card__img" src="public/img/Accueil/daft_punk.webp"/>
+            <p class="card__description">Une musique capable d'exprimer plusieurs émotions</p>
           </a>
-        <article>
+        </article>
+
+        <article class="card">
           <a href="/fr/lagloiredemonpere.html">
-            <h2>S'identifier à un inconnu</h2>
-            <img src="public/img/Accueil/gloire_pere.webp"/>
-            <h4>Peut-on s'identifier à quelqu'un par la force des mots ?</h4>
+            <h2 class="card__title">S'identifier à un inconnu</h2>
+            <img class="card__img" src="public/img/Accueil/gloire_pere.webp"/>
+            <p class="class__description">Peut-on s'identifier à quelqu'un par la force des mots ?</p>
           </a>
         </article>
-        <article>
+
+        <article class="card">
           <a href="/fr/centrepompidou.html">
-            <h2>Le centre des arts</h2>
-            <img src="public/img/Accueil/pompidou.webp"/>
-            <h4>Le lieu reunissant les plus grandes oeuvres de ces dernières années</h4>
+            <h2 class="carde__title">Le centre des arts</h2>
+            <img class="card__img" src="public/img/Accueil/pompidou.webp"/>
+            <hp class="class__description">Le lieu reunissant les plus grandes oeuvres de ces dernières années</p>
           </a>
         </article>
-        <article>
+
+        <article class="card">
           <a href="/fr/espoir.html">
-            <h2>Le réchauffement climatique, un espoir ?</h2>
-            <img src="public/img/Accueil/espoir.webp"/>
-            <h4>Et si il y avait une solution sous nos yeux ?</h4>
+            <h2 class="card__title">Le réchauffement climatique, un espoir ?</h2>
+            <img class="card__img" src="public/img/Accueil/espoir.webp"/>
+            <p class="card__description">Et si il y avait une solution sous nos yeux ?</p>
           </a>
-          <article>
+        </article>
+
+        <article class="card">
           <a href="/fr/crainte.html">
-            <h2>La fin des métiers artistiques</h2>
-            <img src="public/img/Accueil/crainte.webp"/>
-            <h4>Graphiste, peintre, photographe : une fin imminente...</h4>
+            <h2 class="card__title">La fin des métiers artistiques</h2>
+            <img class="card__img" src="public/img/Accueil/crainte.webp"/>
+            <p class="card__description">Graphiste, peintre, photographe : une fin imminente...</p>
           </a>
         </article>
 
@@ -116,26 +125,26 @@
 
 </main>
 
-<footer>
+<footer class="footer">
   <div>
-  <ul>
-      <p><li><a href="/fr/glossaire.html">Glossaire</a></li></p>
-      <p><li><a href="/fr/apropos.html">A propos</a></li></p>
-      <p><li><a href="/fr/contact.html">Contact</a></li></p>
-      <p><li><a href="/fr/autresprojets.html">Autres projets</a></li></p>
+  <ul class="footer__item">
+      <p><li class="footer__item"><a href="/fr/glossaire.html">Glossaire</a></li></p>
+      <p><li class="footer__item"><a href="/fr/apropos.html">A propos</a></li></p>
+      <p><li class="footer__item"><a href="/fr/contact.html">Contact</a></li></p>
+      <p><li class="footer__item"><a href="/fr/autresprojets.html">Autres projets</a></li></p>
 
 
       <div style='display:flex'></div>
-      <div><a href="https://www.youtube.com/channel/UCb55VMSoRkX2260uyUtXZ4w/videos?view_as=subscriber" aria-label="youtube"><img src="public/icones/youtube.svg" alt="icone youtube"></a></div>
-      <div><a href="https://twitter.com/wax_mp4" aria-label="twitter"><img src="public/icones/twitter.svg" alt="icone twitter"></a></div>
-      <div><a href="https://www.instagram.com/luc.mp4/" aria-label="instagram"><img src="public/icones/instagram.svg" alt="icone instagram"></a></div>
-      <div><a href="https://www.linkedin.com/in/lucas-chippaux-214bb2252/" aria-label="linkedin"><img src="public/icones/linkedin.svg" alt="icone linkedin"></a></div>
+      <div><a class="footer__link" href="https://www.youtube.com/channel/UCb55VMSoRkX2260uyUtXZ4w/videos?view_as=subscriber" aria-label="youtube"><img src="public/icones/youtube.svg" alt="icone youtube"></a></div>
+      <div><a class="footer__link" href="https://twitter.com/wax_mp4" aria-label="twitter"><img src="public/icones/twitter.svg" alt="icone twitter"></a></div>
+      <div><a class="footer__link" href="https://www.instagram.com/luc.mp4/" aria-label="instagram"><img src="public/icones/instagram.svg" alt="icone instagram"></a></div>
+      <div><a class="footer__link" href="https://www.linkedin.com/in/lucas-chippaux-214bb2252/" aria-label="linkedin"><img src="public/icones/linkedin.svg" alt="icone linkedin"></a></div>
   </div>
   </ul>   
-    <a href="mailto:lucas.chippaux@gmail.com">lucas.chippaux@gmail.com</a>
-    <p>Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</p>
-    <p>Lucas CHIPPAUX MMI1 A1</p>
-    <a href="http://mmimontbeliard.com" aria-label="mmi_logo"><img src="public/icones/MMI_dut_white.svg" alt="MMI logo"></a>
+    <a class="footer__mail" href="mailto:lucas.chippaux@gmail.com">lucas.chippaux@gmail.com</a>
+    <p class__explication>Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</p>
+    <p class__name>Lucas CHIPPAUX MMI1 A1</p>
+    <a class="footer__logommi" href="http://mmimontbeliard.com" aria-label="mmi_logo"><img src="public/icones/MMI_dut_white.svg" alt="MMI logo"></a>
 </footer>
     
 </body>

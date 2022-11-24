@@ -25,39 +25,37 @@
       }
     </style>
     </head>
-<header>
-    <header class="header">
-        <a href="homepage.html">
-          <img src="public/icones/discover-e_logo.svg" alt="logo discover-e">
-          <a href="autresprojets.html">
-          <img src="2022-sae105-projet-Lucas-Chippaux/public/icones/fr_flag.svg" alt="fr flag">
-        </a>
-        </a>
 
-        <body>
-            <header>
-              <button 
-              aria-controls="mainNav" 
-              @click="menuIsOpen = ! menuIsOpen"
-              class="header__menuBtn">
-              <img src="public/icones/menu.svg" alt="menu">
+<body class="body">
+
+    <header class="header">
+        
+        <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen"
+        class="header__menuBtn">
+                <img src="public/icones/menu.svg" alt="menu">
         </button>
         <nav 
-        id="mainNav"
-        x-show="menuIsOpen"
-        x-transition.duration.800ms
-        class="menu"
-      >
+        id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms 
+        class="menu">
+        
         <ul>
-          <p><li><a href="bladerunner2.html">Blade Runner</a></li></p>
-          <p><li><a href="veridisquo2.html">Veridis Quo</a></li></p>
-          <p><li><a href="fatherglory.html">My Father's Glory</a></li></p>
-          <p><li><a href="centerpompidou.html">Centre Pompidou</a></li></p>
-          <p><li><a href="hope.html">Hope</a></li></p>
-          <p><li><a href="fear.html">Fear</a></li></p>
+            <p><li><a href="bladerunner2.html">Blade Runner</a></li></p>
+            <p><li><a href="veridisquo2.html">Veridis Quo</a></li></p>
+            <p><li><a href="fatherglory.html">My Father's Glory</a></li></p>
+            <p><li><a href="centerpompidou.html">Centre Pompidou</a></li></p>
+            <p><li><a href="hope.html">Hope</a></li></p>
+            <p><li><a href="fear.html">Fear</a></li></p>
         </ul>
     </nav>
- </header>
+    
+        <a href="homepage.html">
+            <img src="public/icones/discover-e_logo.svg" alt="logo discover-e">
+        </a>
+        <a href="index.html">
+        <img src="public/icones/fr_flag.svg" alt="fr flag">
+        </a>
+    </header>
+    
  <body>
   <main>
     <h1>

@@ -25,28 +25,19 @@
       }
     </style>
     </head>
-<header>
+    
+<body class="body">
+    
     <header class="header">
-        <a href="index.html">
-            <img src="public/icones/discover-e_logo.svg" alt="logo discover-e">
-            <a href="hope.html">
-            <img src="public/icones/eng_flag.svg" alt="eng flag">
-        </a>
-
-        <body>
-            <header>
-              <button 
-              aria-controls="mainNav" 
-              @click="menuIsOpen = ! menuIsOpen"
-              class="header__menuBtn">
-              <img src="public/icones/menu.svg" alt="menu">
+        
+        <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen"
+        class="header__menuBtn">
+                <img src="public/icones/menu.svg" alt="menu">
         </button>
-        <nav
-        id="mainNav"
-        x-show="menuIsOpen"
-        x-transition.duration.800ms
-        class="menu"
-      >
+        <nav 
+        id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms 
+        class="menu">
+        
         <ul>
             <p><li><a href="bladerunner.html">Blade Runner</a></li></p>
             <p><li><a href="veridisquo.html">Veridis Quo</a></li></p>
@@ -56,7 +47,14 @@
             <p><li><a href="crainte.html">Crainte</a></li></p>
         </ul>
     </nav>
-</header>
+    
+        <a href="index.html">
+            <img src="public/icones/discover-e_logo.svg" alt="logo discover-e">
+        </a>
+        <a href="homepage.html">
+        <img src="public/icones/eng_flag.svg" alt="eng flag">
+        </a>
+    </header>
 
 <body>
  <main>

@@ -4,6 +4,16 @@ body {
     max-width: 100%;
 }
 
+header {
+    background-color: white;
+}
+
+a:-webkit-any-link {
+    cursor: pointer;
+    color:var(--text-color);
+    text-decoration: none;
+}
+
 h1 {
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -25,6 +35,6 @@ p {
     font-family: 'Oxygen', sans-serif;
 }
 
-header {
-    background-color: white;
+.menu {
+    color: #031036;
 }

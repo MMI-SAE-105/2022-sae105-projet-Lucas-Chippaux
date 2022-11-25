@@ -24,3 +24,7 @@ p {
     text-align: center;
     font-family: 'Oxygen', sans-serif;
 }
+
+header {
+    background-color: white;
+}

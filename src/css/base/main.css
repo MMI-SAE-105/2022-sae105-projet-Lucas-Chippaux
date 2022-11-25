@@ -6,6 +6,7 @@ body {
 
 header {
     background-color: white;
+    text-align: center;
 }
 
 a:-webkit-any-link {
@@ -37,4 +38,15 @@ p {
 
 .menu {
     color: #031036;
+}
+
+.header__menuBtn {
+    right: 22%;
+    background-color: var(--white);
+    border-style: none;
+
+}
+
+.header__translate {
+    left: 22%;
 }

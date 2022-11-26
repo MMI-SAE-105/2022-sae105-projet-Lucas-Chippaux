@@ -1,11 +1,11 @@
 body {
-    background-color: #031036;
-    color: white;
+    background-color: var(--bluebody);
+    color: var(--white);
     max-width: 100%;
 }
 
 header {
-    background-color: white;
+    background-color: var(--white);
     text-align: center;
 }
 
@@ -37,7 +37,7 @@ p {
 }
 
 .menu {
-    color: #031036;
+    color: var(--bluebody);
 }
 
 .header__menuBtn {
@@ -52,6 +52,22 @@ p {
 }
 
 .card__img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.footer__item {
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.footer__mail {
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.footer__logommi {
     display: block;
     margin-left: auto;
     margin-right: auto 

@@ -50,3 +50,9 @@ p {
 .header__translate {
     left: 22%;
 }
+
+.card__img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}

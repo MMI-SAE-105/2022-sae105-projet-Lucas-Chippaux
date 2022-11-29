@@ -1,0 +1,19 @@
+header {
+    background-color:var(--white);
+    text-align: center;
+}
+
+.menu {
+    color:var(--blue-body);
+}
+
+.header__menuBtn {
+    right: 22%;
+    background-color:var(--white);
+    border-style: none;
+
+}
+
+.header__translate {
+    left: 22%;
+}

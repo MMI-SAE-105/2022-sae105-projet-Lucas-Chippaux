@@ -4,11 +4,6 @@ body {
     max-width: 100%;
 }
 
-header {
-    background-color:var(--white);
-    text-align: center;
-}
-
 a:-webkit-any-link {
     cursor: pointer;
     color:var(--text-color);
@@ -36,39 +31,9 @@ p {
     font-family: 'Oxygen', sans-serif;
 }
 
-.menu {
-    color:var(--blue-body);
-}
-
-.header__menuBtn {
-    right: 22%;
-    background-color:var(--white);
-    border-style: none;
-
-}
-
-.header__translate {
-    left: 22%;
-}
-
 .card__img {
     display: block;
     margin-left: auto;
     margin-right: auto 
 }
 
-.footer__item {
-    text-align: center;
-    font-family: 'Oxygen', sans-serif;
-}
-
-.footer__mail {
-    text-align: center;
-    font-family: 'Oxygen', sans-serif;
-}
-
-.footer__logommi {
-    display: block;
-    margin-left: auto;
-    margin-right: auto 
-}

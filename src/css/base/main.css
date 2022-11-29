@@ -1,11 +1,11 @@
 body {
-    background-color: var(--bluebody);
-    color: var(--white);
+    background-color:var(--blue-body);
+    color:var(--white);
     max-width: 100%;
 }
 
 header {
-    background-color: var(--white);
+    background-color:var(--white);
     text-align: center;
 }
 
@@ -37,12 +37,12 @@ p {
 }
 
 .menu {
-    color: var(--bluebody);
+    color:var(--blue-body);
 }
 
 .header__menuBtn {
     right: 22%;
-    background-color: var(--white);
+    background-color:var(--white);
     border-style: none;
 
 }

@@ -1,12 +1,12 @@
-body {
-    background-color:var(--blue-body);
+.body {
+    background-color: var(--blue-body);
     color:var(--white);
     max-width: 100%;
 }
 
 a:-webkit-any-link {
     cursor: pointer;
-    color:var(--text-color);
+    color:var(--white);
     text-decoration: none;
 }
 

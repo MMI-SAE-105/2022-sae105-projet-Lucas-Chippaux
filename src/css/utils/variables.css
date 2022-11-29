@@ -4,7 +4,7 @@
     --texte3: 'Oxygen';
     --p: 'Oxygen';
 
-    /* Color styles */
+/* Color styles */
 --blue-body: rgba(3, 16, 54, 1);
 --bleu-2: rgba(33, 51, 101, 1);
 --jaune-1: rgba(255, 184, 0, 1);
@@ -14,5 +14,15 @@
 --bleu-4: rgba(109, 125, 169, 1);
 --white: rgba(255, 255, 255, 1);
 --jaune-2: rgba(255, 200, 58, 1);
+
+/* Text-size styles */
+--heading-1: 22px;
+--heading-2: 20px;
+--subheading: 14px;
+--body-1: 16px;
+--body-2: 14px;
+--link: 14px;
+--button: 22px;
+--small--text: 13px;
 
 }

@@ -1,10 +1,10 @@
-header {
-    background-color:var(--white);
+.header {
+    background-color:var(--blue-body);
     text-align: center;
 }
 
 .menu {
-    color:var(--blue-body);
+    color:var(--white);
 }
 
 .header__menuBtn {

@@ -2,9 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&family=Roboto&display=swap');
 
+@import "base/menu.css";
 @import "utils/variables.css";
 @import "base/main.css";
 @import "base/media.css";
 @import "layout/footer.css";
 @import "layout/header.css";
-@import "base/menu.css";
+

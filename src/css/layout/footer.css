@@ -1,25 +1,30 @@
 .footer {
-    background-color:var(--noir);
+    background-color:var(--white);
 }
 
 .footer__item {
     text-align: center;
     font-family: 'Oxygen', sans-serif;
+    color:var(--blue-body);
+    
 }
 
 .footer__explication {
     text-align: center;
     font-family: 'Oxygen', sans-serif;
+    color:var(--blue-body);
 }
 
 .footer__name {
     text-align: center;
     font-family: 'Oxygen', sans-serif;
+    color:var(--blue-body);
 }
 
 .footer__mail {
     text-align: center;
     font-family: 'Oxygen', sans-serif;
+    color:var(--blue-body);
 }
 
 .footer__logommi {

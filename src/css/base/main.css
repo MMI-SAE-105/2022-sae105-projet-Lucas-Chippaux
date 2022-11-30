@@ -2,6 +2,8 @@
     background-color: var(--blue-body);
     color:var(--white);
     max-width: 100%;
+    margin-top:0%;
+    margin: 0%;
 }
 
 a:-webkit-any-link {

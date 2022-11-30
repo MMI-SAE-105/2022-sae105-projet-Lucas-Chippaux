@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en" x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen,}">
   <head>
-    <link rel="stylesheet" href="../2022-sae105-projet-Lucas-Chippaux/src/css/style.css">
+    <link rel="stylesheet" href="../src/css/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Other projects</title>
-    <link rel="icon" href="/public/icones/logo_onglet.svg">
+    <link rel="icon" href="../public/icones/logo_onglet.svg">
     <script defer src="https://unpkg.com/alpinejs"></script>
   </head>
 
@@ -16,7 +16,7 @@
         
         <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen"
         class="header__menuBtn">
-                <img src="/public/icones/menu.svg" alt="menu">
+                <img src="../public/icones/menu.svg" alt="menu">
         </button>
         <nav 
         id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms 
@@ -33,10 +33,10 @@
     </nav>
     
         <a href="index_eng.html">
-            <img src="/public/icones/discover-e_logo.svg" alt="logo discover-e">
+            <img src="../public/icones/discover-e_logo.svg" alt="logo discover-e">
         </a>
-        <a href="/fr/autresprojets.html">
-        <img src="/public/icones/fr_flag.svg" alt="fr flag">
+        <a href="../fr/autresprojets.html">
+        <img src="../public/icones/fr_flag.svg" alt="fr flag">
         </a>
     </header>
 
@@ -83,27 +83,28 @@
     </ul>
 </main>
  </body>
+
  <footer>
-  <div>
-  <ul>
-     <p><li><a href="glossary.html">Glossary</a></li></p>
-     <p><li><a href="about.html">About</a></li></p>
-     <p><li><a href="contact2.html">Contact</a></li></p>
-     <p><li><a href="otherprojects.html">Other Projects</a></li></p>
- 
- 
-     <div style='display:flex'></div>
-     <div><a href="https://www.youtube.com/channel/UCb55VMSoRkX2260uyUtXZ4w/videos?view_as=subscriber" aria-label="youtube"><img src="/public/icones/youtube.svg" alt="icone youtube"></a></div>
-     <div><a href="https://twitter.com/wax_mp4" aria-label="twitter"><img src="/public/icones/twitter.svg" alt="icone twitter"></a></div>
-     <div><a href="https://www.instagram.com/luc.mp4/" aria-label="instagram"><img src="/public/icones/instagram.svg" alt="icone instagram"></a></div>
-     <div><a href="https://www.linkedin.com/in/lucas-chippaux-214bb2252/" aria-label="linkedin"><img src="/public/icones/linkedin.svg" alt="icone linkedin"></a></div>
-  </div>
- </ul>   
-     <a href="mailto:lucas.chippaux@gmail.com">lucas.chippaux@gmail.com</a>
-     <p>Project carried out as part of an educational exercise at the MMI department of Montbéliard</p>
-     <p>Lucas CHIPPAUX MMI1 A1</p>
-     <a href="http://mmimontbeliard.com" aria-label="mmi_logo"><img src="/public/icones/MMI_dut_white.svg" alt="MMI logo"></a>
- </footer>
-     
- </body>
- </html>
+    <div>
+    <ul>
+       <p><li><a href="glossary.html">Glossary</a></li></p>
+       <p><li><a href="about.html">About</a></li></p>
+       <p><li><a href="contact2.html">Contact</a></li></p>
+       <p><li><a href="otherprojects.html">Other projects</a></li></p>
+   
+   
+       <div style='display:flex'></div>
+       <div><a href="https://www.youtube.com/channel/UCb55VMSoRkX2260uyUtXZ4w/videos?view_as=subscriber" aria-label="youtube"><img src="../public/icones/youtube.svg" alt="icone youtube"></a></div>
+       <div><a href="https://twitter.com/wax_mp4" aria-label="twitter"><img src="../public/icones/twitter.svg" alt="icone twitter"></a></div>
+       <div><a href="https://www.instagram.com/luc.mp4/" aria-label="instagram"><img src="../public/icones/instagram.svg" alt="icone instagram"></a></div>
+       <div><a href="https://www.linkedin.com/in/lucas-chippaux-214bb2252/" aria-label="linkedin"><img src="../public/icones/linkedin.svg" alt="icone linkedin"></a></div>
+    </div>
+   </ul>   
+       <a href="mailto:lucas.chippaux@gmail.com">lucas.chippaux@gmail.com</a>
+       <p>Project carried out as part of an educational exercise at the MMI department of Montbéliard</p>
+       <p>Lucas CHIPPAUX MMI1 A1</p>
+       <a href="http://mmimontbeliard.com" aria-label="mmi_logo"><img src="../public/icones/MMI_dut_white.svg" alt="MMI logo"></a>
+   </footer>
+       
+   </body>
+   </html>

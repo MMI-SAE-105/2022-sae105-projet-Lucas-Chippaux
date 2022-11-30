@@ -1,44 +1,45 @@
 <!DOCTYPE html>
 <html lang="fr" x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen,}">
   <head>
-    <link rel="stylesheet" href="../2022-sae105-projet-Lucas-Chippaux/src/css/style.css">
+    <link rel="stylesheet" href="../src/css/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Autres projets</title>
-    <link rel="icon" href="/public/icones/logo_onglet.svg">
+    <title>Autres Projets</title>
+    <link rel="icon" href="../public/icones/logo_onglet.svg">
     <script defer src="https://unpkg.com/alpinejs"></script>
   </head>
 
 <body class="body">
-    
+     
     <header class="header">
         
         <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen"
         class="header__menuBtn">
-                <img src="/public/icones/menu.svg" alt="menu">
+              <img src="../public/icones/menu.svg" alt="menu">
         </button>
         <nav 
         id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms 
         class="menu">
         
-        <ul>
-            <li class="menu__item"><a href="bladerunner.html"><img src="/public/icones/film_icone.svg" alt="icone film"> Blade Runner</a></li>
-            <li class="menu__item"><a href="veridisquo.html"><img src="/public/icones/music_icone.svg" alt="icone music"> Veridis Quo</a></li>
-            <li class="menu__item"><a href="lagloiredemonpere.html"><img src="/public/icones/livre_icone.svg" alt="icone livre"> La gloire de mon père</a></li>
-            <li class="menu__item"><a href="centrepompidou.html"><img src="/public/icones/lieu_icone.svg" alt="icone lieu"> Centre Pompidou</a></li>
-            <li class="menu__item"><a href="espoir.html"><img src="/public/icones/espoir_icone.svg" alt="icone espoir"> Espoir</a></li>
-            <li class="menu__item"><a href="crainte.html"><img src="/public/icones/crainte_icone.svg" alt="icone crainte"> Crainte</a></li>
+        <ul class="menu__item">
+          <li class="menu__item"><a href="../fr/bladerunner.html"><img src="../public/icones/film_icone.svg" alt="icone film"> Blade Runner</a></li>
+          <li class="menu__item"><a href="../fr/veridisquo.html"><img src="../public/icones/music_icone.svg" alt="icone music"> Veridis Quo</a></li>
+          <li class="menu__item"><a href="../fr/lagloiredemonpere.html"><img src="../public/icones/livre_icone.svg" alt="icone livre"> La gloire de mon père</a></li>
+          <li class="menu__item"><a href="../fr/centrepompidou.html"><img src="../public/icones/lieu_icone.svg" alt="icone lieu"> Centre Pompidou</a></li>
+          <li class="menu__item"><a href="../fr/espoir.html"><img src="../public/icones/espoir_icone.svg" alt="icone espoir"> Espoir</a></li>
+          <li class="menu__item"><a href="../fr/crainte.html"><img src="../public/icones/crainte_icone.svg" alt="icone crainte"> Crainte</a></li>
         </ul>
     </nav>
-    
-        <a href="/index.html">
-            <img src="/public/icones/discover-e_logo.svg" alt="logo discover-e">
-        </a>
-        <a href="/en/otherprojects.html">
-        <img src="/public/icones/eng_flag.svg" alt="eng flag">
-        </a>
-    </header>
+  
+    <a class="header__logo" href="../index.html">
+      <img src="../public/icones/discover-e_logo.svg" alt="logo discover-e">
+   </a>
+   <a class="header__translate" href="../en/otherprojects.html">
+     <img src="../public/icones/eng_flag.svg" alt="eng flag">
+   </a>
+
+ </header>
 
  <body>
   <main>

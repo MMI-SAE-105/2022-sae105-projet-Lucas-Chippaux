@@ -34,12 +34,23 @@ p {
     font-family: 'Oxygen', sans-serif;
 }
 
-.card__img {
+.card__img-left {
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 5%;
     opacity: 75%;
+    left: 100%
+
+}
+
+.card__img-right {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+    opacity: 75%;
+    right: 100%;
 
 }
 

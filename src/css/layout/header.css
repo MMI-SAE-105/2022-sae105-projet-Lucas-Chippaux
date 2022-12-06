@@ -8,13 +8,13 @@
 }
 
 .header__menuBtn {
-    right: 22%;
+    right: 18%;
     background-color:var(--white);
     border-style: none;
 
 }
 
-.header__translate {
+.header__flag {
     left: 22%;
     
 }

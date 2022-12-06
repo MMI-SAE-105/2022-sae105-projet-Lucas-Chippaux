@@ -1,31 +1,31 @@
-.footer {
+footer {
     background-color:var(--white);
+    color: var(--blue-body);
+    padding: 8px;
+    text-align: center;
+    margin-top: 30px;
     
 }
 
 .footer__item {
     text-align: center;
     font-family: 'Oxygen', sans-serif;
-    color:var(--blue-body);
-    
+    color: var(--blue-body);
+    list-style-type: none;
+
 }
 
-.footer__explication {
+.footer__id {
     text-align: center;
     font-family: 'Oxygen', sans-serif;
-    color:var(--blue-body);
-}
-
-.footer__name {
-    text-align: center;
-    font-family: 'Oxygen', sans-serif;
-    color:var(--blue-body);
+    color: var(--blue-body);
 }
 
 .footer__mail {
     text-align: center;
     font-family: 'Oxygen', sans-serif;
-    color:var(--blue-body);
+    color: var(--blue-body);
+    text-decoration: underline;
 }
 
 .footer__logommi {
@@ -33,5 +33,11 @@
     display: block;
     margin-left: auto;
     margin-right: auto 
+
+}
+
+.footer__social {
+    display: flex;
+    position: relative;
 
 }

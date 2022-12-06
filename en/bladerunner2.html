@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen,}">
+  <head>
+    <link rel="stylesheet" href="../src/css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blade Runner</title>
+    <link rel="icon" href="../public/icones/logo_onglet.svg">
+    <link href="https://unpkg.com/cloudinary-video-player@1.9.4/dist/cld-video-player.min.css" 
+      rel="stylesheet">
+    <script src="https://unpkg.com/cloudinary-video-player@1.9.4/dist/cld-video-player.min.js" 
+      type="text/javascript"></script>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+  </head>
+
+<body class="body">
+     
+    <header class="header">
+        
+        <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen"
+        class="header__menuBtn">
+              <img src="../public/icones/menu.svg" alt="menu">
+        </button>
+        <nav 
+        id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms 
+        class="menu">
+        
+        <ul class="menu__item">
+          <li class="menu__item"><a href="../en/bladerunner2.html"><img src="../public/icones/film_icone.svg" alt="icone film"> Blade Runner</a></li>
+          <li class="menu__item"><a href="../en/veridisquo2.html"><img src="../public/icones/music_icone.svg" alt="icone music"> Veridis Quo</a></li>
+          <li class="menu__item"><a href="../en/fatherglory.html"><img src="../public/icones/livre_icone.svg" alt="icone book"> Father's Glory</a></li>
+          <li class="menu__item"><a href="../en/centerpompidou.html"><img src="../public/icones/lieu_icone.svg" alt="icone place"> Centre Pompidou</a></li>
+          <li class="menu__item"><a href="../en/hope.html"><img src="../public/icones/espoir_icone.svg" alt="icone espoir"> Hope</a></li>
+          <li class="menu__item"><a href="../en/fear.html"><img src="../public/icones/crainte_icone.svg" alt="icone crainte"> Fear</a></li>
+        </ul>
+    </nav>
+  
+    <a class="header__logo" href="../en/index_eng.html">
+      <img src="../public/icones/discover-e_logo.svg" alt="logo discover-e">
+   </a>
+   <a class="header__translate" href="../fr/index.html">
+     <img src="../public/icones/fr_flag.svg" alt="fr flag">
+   </a>
+
+ </header>
+
+ <body>
+    <main>
+        <section>
+    
+        <h1 class="h1">Le film qui imagine un futur horrible</h1>
+        <img src="../public/img/Blade runner/Poster film.webp" alt="Poster blade runner">
+        <h2 class="h2">De quoi parle "Blade Runner" ?</h2>
+        <h3 class="h3">Sortie au cinéma en 1982, Blade Runner est un film de science-fiction américain réalisé par Ridley Scott. Il s’agit d’une adaptation du roman de Philip K. Dick « Les androïdes rêvent-ils de moutons électriques ? »</h3>
+        <h2 class="h2">Une histoire fascinante...</h2>
+        <h3 class="h3">Si à l’époque le film fut un échec commercial, aujourd’hui, il figure parmi les plus grands films de tous les temps et souvent situé à la première place des longs-métrages de science-fiction. </h3>
+        <h3 class="h3">Après plus de 40 ans, le film est toujours visuellement impressionnant, ces décors, ces costumes, ces effets spéciaux, reste encore aujourd’hui une vraie prouesse : son ambiance, dû à la magnifique bande sonore de Vangelis, est devenu iconique dans le genre de la science-fiction, plus particulièrement dans un sous genre de la SF : le cyberpunk. Mélancolique, oppressant, le style visuel du film est devenu une vraie référence dans la culture populaire. La nature a disparu, au profit d’une artificialité totale. Mélange ingénieux entre film noir, polar et science-fiction, le tout donne une œuvre unique.</h3>
+        <h3 class="h3">Le film, avec son statue culte, continue encore aujourd’hui, d’influencer différents artistes dans quelconques milieux (Cinéma, Jeux-vidéo, Dessin…)</h3>
+        <h2 class="h2">25 ans plus tard, toujours aussi puissant</h2>
+        <h3 class="h3">Le film a eu droit à une suite près de 25 ans plus tard, « Blade Runner 2049 » réalisé par Denis Villeneuve, se déroulant 30 ans plus tard après les événements du premier.</h3>
+        <img src="../public/img/Blade runner/blade_runner_2049.webp" alt="Poster blade runner 2049">
+        <p class="p">Affiche promotionelle du film "Blade Runner 2049"</p>
+        <h2 class="h2">Biographie du réalisateur</h2>
+        <img src="../public/img/Blade runner/ridley_scott.webp" alt="ridley scott">
+        <p class="p">Photographie du réalisateur de Blade Runner</p>
+        <h3 class="h3">Né le 30 novembre 1937 à South Shields en Angleterre, Ridley Scott est un réalisateur et producteur britanique comme son frère ainé, Tony Scott, également un grand nom d’Hollywood. </h3>
+        <h3 class="h3">A ses débuts, dans les années 70, il réalise des publicités, jusqu’à réaliser en 1977, son premier long-métrage, « Les Duellistes ». Après le succès de son second film « Alien » en 1979, il réalise « Blade Runner » considéré aujourd’hui, avec son précédent film comme des chefs-d’œuvre de science-fiction.</h3>
+        <h3 class="h3">C’est alors qu’il deviendra un grand cinéaste, avec des films comme « Thelma et Louise » (1991), « 1492 : Christophe Colomb » (1992) ou encore « Gladiator » (2000).</h3>
+        <h3 class="h3">Acclamé et reconnu par le public, il est aujourd’hui une grande figure du cinéma Hollywoodien.</h3>
+        <h2 class="h2">Films Principaux</h2>
+        <div style='display:flex'>
+            <div><img src="../public/img/Blade runner/alien.webp"></div>
+            <div><img src="../public/img/Blade runner/thelma_louise.webp"></div>
+            <div><img src="../public/img/Blade runner/1492.webp"></div>
+            </div>
+        <div style='display:flex'>
+            <div><img src="../public/img/Blade runner/gladiator.webp"></div>
+            <div><img src="../public/img/Blade runner/mars.webp"></div>
+            <div><img src="../public/img/Blade runner/gucci.webp"></div>
+            </div>
+
+        <h2 class="h2">Filmographie Complète</h2>
+        <h3 class="h3" ><li>1977 : Les Duellistes</li></h3>
+        <h3 class="h3"><li>1979 : Alien</li></h3>
+        <h3 class="h3"><li>1982 : Blade Runner</li></h3>
+        <h3 class="h3"><li>1985 : Legend</li></h3>
+        <h3 class="h3"><li>1987 : Traquée</li></h3>
+        <h3 class="h3"><li>1989 : Black Rain</li></h3>
+        <h3 class="h3"><li>1991 : Thelma et Louise</li></h3>
+        <h3 class="h3"><li>1992 : 1492 - Christophe Colomb</li></h3>
+        <h3 class="h3"><li>1996 : Lame de fond</li></h3>
+        <h3 class="h3"><li>1997 : À armes égales</li></h3>
+        <h3 class="h3"><li>2000 : Gladiator</li></h3>
+        <h3 class="h3"><li>2001 : Hannibal</li></h3>
+        <h3 class="h3"><li>2002 : La Chute du faucon noir</li></h3>
+        <h3 class="h3"><li>2003 : Les Associés</li></h3>
+        <h3 class="h3"><li>2005 : Kingdom of Heaven</li></h3>
+        <h3 class="h3"><li>2006 : Une grande année</li></h3>
+        <h3 class="h3"><li>2007 : American Gangster</li></h3>
+        <h3 class="h3"><li>2008 : Mensonges d'État</li></h3>
+        <h3 class="h3"><li>2010 : Robin des Bois</li></h3>
+        <h3 class="h3"><li>2012 : Prometheus</li></h3>
+        <h3 class="h3"><li>2013 : Cartel</li></h3>
+        <h3 class="h3"><li>2014 : Exodus: Gods and Kings</li></h3>
+        <h3 class="h3"><li>2015 : Seul sur Mars</li></h3>
+        <h3 class="h3"><li>2017 : Tout l'argent du monde</li></h3>
+        <h3 class="h3"><li>2017 : Alien: Covenant</li></h3>
+        <h3 class="h3"><li>2021 : Le Dernier Duel</li></h3>
+        <h3 class="h3"><li>2021 : House of Gucci</li></h3>
+
+        <h2 class="h2">Bande annonce du film</h2>
+      <video class="video__player"
+      width=400
+      height=200
+      id="example-player"
+      controls
+      muted
+      class="cld-video-player cld-video-player-skin-dark">
+      </video>
+      </section>
+
+  <footer class="footer">
+    <div>
+    <ul class="footer__item">
+      <p class="footer__item"><a href="../en/glossary.html">Glossary</a></p>
+      <p class="footer__item"><a href="../en/about.html">About</a></p>
+      <p class="footer__item"><a href="../en/contact2.html">Contact</a></p>
+      <p class="footer__item"><a href="../en/otherprojects.html">Other Projects</a></p>
+
+
+        <div style='display:flex'></div>
+        <div><a class="footer__link" href="https://www.youtube.com/channel/UCb55VMSoRkX2260uyUtXZ4w/videos?view_as=subscriber" aria-label="youtube"><img src="../public/icones/youtube.svg" alt="icone youtube"></a></div>
+        <div><a class="footer__link" href="https://twitter.com/wax_mp4" aria-label="twitter"><img src="../public/icones/twitter.svg" alt="icone twitter"></a></div>
+        <div><a class="footer__link" href="https://www.instagram.com/luc.mp4/" aria-label="instagram"><img src="../public/icones/instagram.svg" alt="icone instagram"></a></div>
+        <div><a class="footer__link" href="https://www.linkedin.com/in/lucas-chippaux-214bb2252/" aria-label="linkedin"><img src="../public/icones/linkedin.svg" alt="icone linkedin"></a></div>
+    </div>
+    </ul>   
+      <a class="footer__mail" href="mailto:lucas.chippaux@gmail.com">lucas.chippaux@gmail.com</a>
+      <p class="footer__explication">Project carried out as part of an educational exercise at the MMI department of Montbéliard</p>
+      <p class="footer__name">Lucas CHIPPAUX MMI1 A1</p>
+      <a class="footer__logommi" href="http://mmimontbeliard.com" aria-label="mmi_logo"><img src="../public/icones/MMI_dut_black.svg" alt="MMI logo"></a>
+  </footer>
+
+  <script>
+    var cld = cloudinary.videoPlayer('example-player', { 
+        cloud_name: 'dtiqh89kw',
+        sourceTypes: ['hls','dash','webm/vp9','mp4/h265','mp4']});
+    cld.source('BLADE_RUNNER_The_Final_Cut_-_Bande_Annonce_Offcielle_VOST_-_Harrison_Ford_Ridley_Scott_pcgcs3.mp4');
+    </script>
+    
+
+  </body>
+  </html>

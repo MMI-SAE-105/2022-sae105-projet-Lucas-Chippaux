@@ -34,23 +34,20 @@ p {
     font-family: 'Oxygen', sans-serif;
 }
 
-.card__img-left {
+.card__img--left {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     border-radius: 5%;
     opacity: 75%;
-    left: 100%
+    justify-content: left;
 
 }
 
-.card__img-right {
+.card__img--right {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     border-radius: 5%;
     opacity: 75%;
-    right: 100%;
+    justify-content: right;
 
 }
+
 

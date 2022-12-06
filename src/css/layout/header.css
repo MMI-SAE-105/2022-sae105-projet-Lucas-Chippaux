@@ -1,20 +1,23 @@
 .header {
     background-color:var(--white);
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+
 }
 
-.menu {
-    color:var(--white);
-}
 
 .header__menuBtn {
-    right: 18%;
+    left: 30%;
     background-color:var(--white);
     border-style: none;
+    
 
 }
 
 .header__flag {
-    left: 22%;
+    right: 30%;
+    background-color:var(--white);
+    border-style: none;
     
 }

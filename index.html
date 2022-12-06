@@ -12,33 +12,35 @@
 
 <body class="body">
      
-    <header class="header">
-        
-        <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen"
-        class="header__menuBtn">
-              <img src="../public/icones/menu.svg" alt="menu">
-        </button>
-        <nav 
-        id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms 
-        class="menu">
-        
-        <ul class="menu__item">
-          <li class="menu__item"><a href="../fr/bladerunner.html"><img src="../public/icones/film_icone.svg" alt="icone film"> Blade Runner</a></li>
-          <li class="menu__item"><a href="../fr/veridisquo.html"><img src="../public/icones/music_icone.svg" alt="icone music"> Veridis Quo</a></li>
-          <li class="menu__item"><a href="../fr/lagloiredemonpere.html"><img src="../public/icones/livre_icone.svg" alt="icone livre"> La gloire de mon père</a></li>
-          <li class="menu__item"><a href="../fr/centrepompidou.html"><img src="../public/icones/lieu_icone.svg" alt="icone lieu"> Centre Pompidou</a></li>
-          <li class="menu__item"><a href="../fr/espoir.html"><img src="../public/icones/espoir_icone.svg" alt="icone espoir"> Espoir</a></li>
-          <li class="menu__item"><a href="../fr/crainte.html"><img src="../public/icones/crainte_icone.svg" alt="icone crainte"> Crainte</a></li>
-        </ul>
-    </nav>
-    
-      <a class="header__logo" href="index.html">
-         <img src="../public/icones/discover-e_logo.svg" alt="logo discover-e">
-      </a>
-      <a class="header__flag" href="../en/index_eng.html">
-         <img src="../public/icones/eng_flag.svg" alt="eng flag">
-      </a>
+    <header>
+        <div class="header">
 
+          <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen"
+          class="header__menuBtn">
+                <img src="../public/icones/menu.svg" alt="menu">
+          </button>
+          <nav 
+          id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms 
+          class="menu">
+          
+          <ul class="menu__item">
+            <li class="menu__item"><a href="../fr/bladerunner.html"><img src="../public/icones/film_icone.svg" alt="icone film"> Blade Runner</a></li>
+            <li class="menu__item"><a href="../fr/veridisquo.html"><img src="../public/icones/music_icone.svg" alt="icone music"> Veridis Quo</a></li>
+            <li class="menu__item"><a href="../fr/lagloiredemonpere.html"><img src="../public/icones/livre_icone.svg" alt="icone livre"> La gloire de mon père</a></li>
+            <li class="menu__item"><a href="../fr/centrepompidou.html"><img src="../public/icones/lieu_icone.svg" alt="icone lieu"> Centre Pompidou</a></li>
+            <li class="menu__item"><a href="../fr/espoir.html"><img src="../public/icones/espoir_icone.svg" alt="icone espoir"> Espoir</a></li>
+            <li class="menu__item"><a href="../fr/crainte.html"><img src="../public/icones/crainte_icone.svg" alt="icone crainte"> Crainte</a></li>
+          </ul>
+      </nav>
+
+        <a class="header__flag" href="../en/index_eng.html">
+          <img src="../public/icones/eng_flag.svg" alt="eng flag">
+        </a>
+      
+        <a class="header__logo" href="index.html">
+          <img src="../public/icones/discover-e_logo.svg" alt="logo discover-e">
+        </a>
+    </div>
     </header>
 
 
@@ -110,47 +112,26 @@
 </main>
 
 <footer>
-  <nav>
-  <div> 
+  <div class="footer">
   <ul class="footer__item">
-    <li>
-    <a href="../fr/glossaire.html">Glossaire</a>
-    </li>
-    <li>
-    <a href="../fr/apropos.html">A propos</a>
-    </li>
-    <li>
-    <a href="../fr/contact.html">Contact</a>
-    </li>
-    <li>
-    <a href="../fr/autresprojets.html">Autres projets</a>
-    </li>
-  </div>
-  </nav>
+    <p class="footer__item"><a href="../fr/glossaire.html">Glossaire</a></p>
+    <p class="footer__item"><a href="../fr/apropos.html">A propos</a></p>
+    <p class="footer__item"><a href="../fr/contact.html">Contact</a></p>
+    <p class="footer__item"><a href="../fr/autresprojets.html">Autres projets</a></p>
+
+
+      <div style='display:flex'></div>
+      <div><a class="footer__link" href="https://www.youtube.com/channel/UCb55VMSoRkX2260uyUtXZ4w/videos?view_as=subscriber" aria-label="youtube"><img src="../public/icones/youtube.svg" alt="icone youtube"></a></div>
+      <div><a class="footer__link" href="https://twitter.com/wax_mp4" aria-label="twitter"><img src="../public/icones/twitter.svg" alt="icone twitter"></a></div>
+      <div><a class="footer__link" href="https://www.instagram.com/luc.mp4/" aria-label="instagram"><img src="../public/icones/instagram.svg" alt="icone instagram"></a></div>
+      <div><a class="footer__link" href="https://www.linkedin.com/in/lucas-chippaux-214bb2252/" aria-label="linkedin"><img src="../public/icones/linkedin.svg" alt="icone linkedin"></a></div>
+
   </ul>   
-  
-  <ul class="footer__social">
-    <li>
-      <a href="https://www.youtube.com/channel/UCb55VMSoRkX2260uyUtXZ4w/videos?view_as=subscriber" aria-label="youtube"><img src="../public/icones/youtube.svg" alt="icone youtube"></a>
-    </li>
-    <li>
-      <a href="https://twitter.com/wax_mp4" aria-label="twitter"><img src="../public/icones/twitter.svg" alt="icone twitter"></a>
-    </li>
-    <li>
-      <a href="https://www.instagram.com/luc.mp4/" aria-label="instagram"><img src="../public/icones/instagram.svg" alt="icone instagram"></a>
-    </li>
-    <li>
-      <a href="https://www.linkedin.com/in/lucas-chippaux-214bb2252/" aria-label="linkedin"><img src="../public/icones/linkedin.svg" alt="icone linkedin"></a>
-    </li>
-
-  </ul>
-
     <a class="footer__mail" href="mailto:lucas.chippaux@gmail.com">lucas.chippaux@gmail.com</a>
-    <div class="footer__id">
-    <p>Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</p>
-    <p>Lucas CHIPPAUX MMI1 A1</p>
-  </div>
+    <p class="footer__explication">Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</p>
+    <p class="footer__name">Lucas CHIPPAUX MMI1 A1</p>
     <a class="footer__logommi" href="http://mmimontbeliard.com" aria-label="mmi_logo"><img src="../public/icones/MMI_dut_black.svg" alt="MMI logo"></a>
+  </div>
 </footer>
     
 </body>

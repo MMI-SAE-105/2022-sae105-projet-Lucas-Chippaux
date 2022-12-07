@@ -41,18 +41,24 @@ p {
 
 }
 
-.card__img--left {
-    display: block;
-    border-radius: 0 5% 5% 0;
-    opacity: 75%;
-    justify-content: left;
-    width:75%
-    
-}
-.card__description {
+.card__title-2 {
     display: block;
     justify-content: right;
+    text-align: right;
+
+}
+
+.card__description {
+    display: block;
+    justify-content: left;
     text-align: left;
+
+}
+
+.card__description-2 {
+    display: block;
+    justify-content: right;
+    text-align: right;
 
 }
 

@@ -8,5 +8,6 @@
 @import "base/media.css";
 @import "utils/variables.css";
 @import "layout/footer.css";
+@import "components/articles";
 
 

@@ -18,5 +18,9 @@
 }
 
 .menu__item {
+  text-align: center;
+}
+
+.menu__item--text {
   color: var(--blue-body);
 }

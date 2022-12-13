@@ -1,4 +1,4 @@
-.body {
+body {
     background-color: var(--blue-body);
     color:var(--white);
     max-width: 100%;
@@ -16,32 +16,33 @@ a:-webkit-any-link {
 h1 {
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    font-size: var(--heading-1: 22px);
+    font-size: var(--heading-1);
 
-   }
+}
 
 h2 {
     text-align: center;
     font-family: 'Oswald', sans-serif;
-    font-size: var(--heading-2: 20px);
+    font-size: var(--heading-2);
     
 }
 
 h3 {
     text-align: center;
     font-family: 'Oxygen', sans-serif;
-    font-size: var(--small--text: 13px;)
+    font-size: var(--small--text);
     
 }
 
 p {
     text-align: center;
     font-family: 'Oxygen', sans-serif;
-    font-size: var(--small--text: 13px;);
+    font-size: var(--small--text);
 }
 
 .annex {
     background-color: var(--blue-body);
     max-width: 100%;
     text-align: center;
+    color: var(--white);
 }

@@ -4,11 +4,10 @@
 }
 
 .card__img {
+    border-radius: 5%;
     margin-top: 12px;
     position: relative;
-    border-radius: 10%;
 
-    
 }
 
 .card__title {

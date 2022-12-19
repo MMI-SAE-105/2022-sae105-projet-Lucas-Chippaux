@@ -39,7 +39,7 @@ footer {
 
 .footer__social {
     display: flex;
-    justify-content: space-between;
-    padding: 10px;
+    left: 0;
+    flex-direction: row;
 
 }

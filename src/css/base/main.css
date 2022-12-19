@@ -4,12 +4,12 @@ body {
     max-width: 100%;
     margin-top:0%;
     margin: 0%;
-
+    
 }
 
-a:-webkit-any-link {
+:any-link {
     cursor: pointer;
-    color:var(--blue-body);
+    color:var(--white);
     text-decoration: none;
 }
 

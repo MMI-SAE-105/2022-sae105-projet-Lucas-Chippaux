@@ -1,6 +1,6 @@
 footer {
-    background-color:var(--white);
-    color: var(--blue-body);
+    background-color:var(--noir );
+    color: var(--white);
     padding: 8px;
     text-align: center;
     margin-top: 30px;
@@ -10,8 +10,7 @@ footer {
 .footer__item {
     text-align: center;
     font-family: 'Basic';
-    font-weight: bold;
-    color: var(--blue-body);
+    color: var(--white);
     font-size: var(--body);
     list-style-type: none;
 
@@ -20,13 +19,12 @@ footer {
 .footer__id {
     text-align: center;
     font-size: var(--small-text);
-    color: var(--blue-body);
+    color: var(--white);
 
 }
 
 .footer__mail {
-    text-decoration: underline;
-    color: var(--blue-body);
+    color: var(--white);
     font-family: 'Oxygen', sans-serif;
     font-size: var(--small-text);
 

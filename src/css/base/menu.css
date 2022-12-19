@@ -9,7 +9,7 @@
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100vh;
+  height: 50vh;
   background:var(--white);
   display: grid;
   justify-content: center;
@@ -20,5 +20,6 @@
 .menu__item {
   text-align: center;
   color: var(--blue-body);
+  font-family: 'Hind', sans-serif;
 }
 

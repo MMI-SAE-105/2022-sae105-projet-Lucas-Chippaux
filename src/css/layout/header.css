@@ -8,7 +8,7 @@
 
 
 .header__menuBtn {
-    left: 30%;
+    left: 3%;
     background-color:var(--white);
     border-style: none;
     
@@ -16,8 +16,9 @@
 }
 
 .header__flag {
-    right: 30%;
+    right: 5%;
     background-color:var(--white);
     border-style: none;
     
 }
+

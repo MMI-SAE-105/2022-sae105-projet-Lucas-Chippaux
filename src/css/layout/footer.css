@@ -9,23 +9,26 @@ footer {
 
 .footer__item {
     text-align: center;
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Basic';
+    font-weight: bold;
     color: var(--blue-body);
+    font-size: var(--body);
     list-style-type: none;
 
 }
 
 .footer__id {
     text-align: center;
-    font-family: 'Oxygen', sans-serif;
+    font-size: var(--small-text);
     color: var(--blue-body);
+
 }
 
 .footer__mail {
-    text-align: center;
-    font-family: 'Oxygen', sans-serif;
     text-decoration: underline;
     color: var(--blue-body);
+    font-family: 'Oxygen', sans-serif;
+    font-size: var(--small-text);
 
 }
 
@@ -38,8 +41,17 @@ footer {
 }
 
 .footer__social {
+    justify-content: center;
     display: flex;
-    left: 0;
-    flex-direction: row;
+    padding: 10px;
+    gap: 5px;
+    list-style-type: none;
+
+}
+
+.footer__social--icon {
+    height: 30px;
+    width: 30px;
+    margin-inline: 10px;
 
 }

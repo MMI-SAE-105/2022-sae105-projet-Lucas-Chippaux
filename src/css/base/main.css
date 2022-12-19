@@ -9,7 +9,7 @@ body {
 
 a:-webkit-any-link {
     cursor: pointer;
-    color:var(--white);
+    color:var(--blue-body);
     text-decoration: none;
 }
 
@@ -30,14 +30,14 @@ h2 {
 h3 {
     text-align: center;
     font-family: 'Oxygen', sans-serif;
-    font-size: var(--small--text);
+    font-size: var(--small-text);
     
 }
 
 p {
     text-align: center;
     font-family: 'Oxygen', sans-serif;
-    font-size: var(--small--text);
+    font-size: var(--small-text);
 }
 
 .annex {

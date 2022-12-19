@@ -2,6 +2,8 @@
     --texte1: 'Roboto';
     --texte2: 'Oswald';
     --texte3: 'Oxygen';
+    --texte4: 'Hind';
+    --text5: 'Basic';
     --p: 'Oxygen';
 
 /* Color styles */
@@ -22,6 +24,6 @@
 --body: 16px;
 --link: 13px;
 --button: 22px;
---small--text: 13px;
+--small-text: 13px;
 
 }

@@ -18,7 +18,7 @@ header {
 }
 
 .header__logo {
-width: 10em
+    justify-content: center;
 
 
 }

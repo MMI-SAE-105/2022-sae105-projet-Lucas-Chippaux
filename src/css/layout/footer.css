@@ -8,7 +8,7 @@ footer {
 }
 
 .footer__item {
-    text-align: center;
+    justify-content: center;
     font-family: 'Basic';
     color: var(--white);
     font-size: var(--body);

@@ -15,11 +15,14 @@
   justify-content: center;
   text-align: center;
   z-index: 5;
+  
 }
 
 .menu__item {
   text-align: center;
-  color: var(--blue-body);
+  color: var(--noir);
   font-family: 'Hind', sans-serif;
+  list-style-type: none;
+
 }
 

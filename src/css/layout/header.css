@@ -1,22 +1,29 @@
-.header {
+header {
     background-color:var(--white);
     text-align: center;
     display: flex;
     justify-content: space-between;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 
 }
 
 
 .header__menuBtn {
-    left: 3%;
+    left: 250px;
     background-color:var(--white);
     border-style: none;
     
-
 }
 
+.header__logo {
+width: 10em
+
+
+}
 .header__flag {
-    right: 5%;
+    right: 250px;
     background-color:var(--white);
     border-style: none;
     

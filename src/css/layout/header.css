@@ -22,11 +22,10 @@ header {
 
 }
 .header__flag {
+    position: relative;
     right: 110px;
     background-color:var(--white);
     border-style: none;
-    position: relative;
-
-    
+   
 }
 

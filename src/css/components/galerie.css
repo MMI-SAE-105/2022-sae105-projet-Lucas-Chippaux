@@ -1,0 +1,67 @@
+.galerie {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    margin-inline: 20px;
+    text-align: center;
+    position: relative;
+    color: var(--white);
+    list-style-type: none;
+}
+
+.galerie__film {
+    padding-bottom: 20px;
+}
+
+.galerie>li:hover {
+    cursor: pointer;
+}
+
+.galerie__film-link--Alien,
+.galerie__film-link--Thelma,
+.galerie__film-link--1492,
+.galerie__film-link--Gladiator,
+.galerie__film-link--Mars,
+.galerie__film-link--Guccic {
+    visibility: hidden;
+    position: relative;
+    background-color: var(--bleu-2);
+    margin-top: -5px;
+    padding: 3px;
+    border-radius: 0 0 8px 8px;
+    margin-bottom: -20px;
+    transition: all 0.4s;
+    opacity: 0.2;
+}
+
+.film-link-open--Alien .galerie__film-link--Alien,
+.film-link-open--Thelma .galerie__film-link--Thelma,
+.film-link-open--1492 .galerie__film-link--1492,
+.film-link-open--Gladiator .galerie__film-link--Gladiator,
+.film-link-open--Mars .galerie__film-link--Mars,
+.film-link-open--Gucci .galerie__film-link--Gucci {
+    visibility: visible;
+    transition: ease-out 0.5s;
+    opacity: 1;
+}
+
+.galerie__film-description--Alien,
+.galerie__film-description--Thelma,
+.galerie__film-description--1492,
+.galerie__film-description--Gladiator,
+.galerie__film-description--Mars,
+.galerie__film-description--Gucci {
+    transition: ease-out 0.5s;
+    opacity: 1;
+}
+
+.film-link-open--Alien .galerie__film-description--Alien,
+.film-link-open--Thelma .galerie__film-description--Thelma,
+.film-link-open--1492 .galerie__film-description--1492,
+.film-link-open--Gladiator .galerie__film-description--Gladiator,
+.film-link-open--Mars .galerie__film-description--Mars,
+.film-link-open--Gucci .galerie__film-description--Gucci {
+    visibility: hidden;
+    transition: ease-in 0.3s;
+    opacity: 0.2;
+}

@@ -33,6 +33,8 @@ h3 {
     text-align: center;
     font-family: 'Oxygen', sans-serif;
     font-size: var(--small-text);
+    font-weight: normal;
+    
     
 }
 
@@ -48,70 +50,3 @@ p {
     text-align: center;
     color: var(--white);
 }
-
-.carrousel_parent-ecrans {
-    display: flex;
-    width: 100%;
-    overflow-x: scroll;
-    scroll-behavior: smooth;
-    scroll-snap-type: x mandatory;
-  
-  }
-
-.carrousel_ecran {
-    width: 20%;
-    flex: none ;
-    scroll-snap-align: start;
-
-  }
-
-.carrousel_ecran figure {
-    margin: 0;
-  }
-
-.carrousel {
-      position: relative;
-    }
-    
-.carrousel_btn {
-      position: absolute;
-      top: 50%; /* centre verticalement */
-      transform: translateY(-50%); /* methode du point mort */
-      width: 3rem;
-      height: 3rem;
-      background: var(--jaune-1);
-      border-radius: 50%;
-      border: none;
-      display: grid;
-      place-content: center;
-      color: var(--white);
-    }
-    
-.carrousel_btn-avant {
-      left: 0;
-    }
-    
-.carrousel_btn-apres {
-      right: 0;
-    }
-
-.caroussel_liste-liens {
-    display: flex;/* aligne horizontalement les enfants */
-    text-align: center; /* centre horizontalement les enfants */
-    margin: 0; /* enlève les marges par défaut */
-    padding: 0; /* enlève les padding par défaut */
-    list-style: none; /* enlève les puces par défaut */
-    justify-content: space-between; /* espace entre les enfants */
-    margin-inline: 10px;
-    text-decoration: none;
-  }
-  
-.caroussel_lien {
-    text-decoration: none;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-
-  .caroussel_lien :active {
-      color: rgb(231, 111, 13);
-    }

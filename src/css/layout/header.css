@@ -21,7 +21,7 @@ header {
 
 }
 .header__flag {
-    right: 250px;
+    justify-content: left;
     background-color:var(--white);
     border-style: none;
     

@@ -68,51 +68,56 @@
         <h3 class="h3">A ses débuts, dans les années 70, il réalise des publicités, jusqu’à réaliser en 1977, son premier long-métrage, « Les Duellistes ». Après le succès de son second film « Alien » en 1979, il réalise « Blade Runner » considéré aujourd’hui, avec son précédent film comme des chefs-d’œuvre de science-fiction.</h3>
         <h3 class="h3">C’est alors qu’il deviendra un grand cinéaste, avec des films comme « Thelma et Louise » (1991), « 1492 : Christophe Colomb » (1992) ou encore « Gladiator » (2000).</h3>
         <h3 class="h3">Acclamé et reconnu par le public, il est aujourd’hui une grande figure du cinéma Hollywoodien.</h3>
-        <h2 class="h2">Films Principaux</h2>
-        <div class="carrousel" x-data="{hrefCourant: '#ecran-1',}">
 
-          <button @click="$refs.parent.scrollLeft -= $refs.parent.clientWidth" 
-          class="carrousel_btn carrousel_btn-avant" aria-label="slide précedant">←</button>
-          <button @click="$refs.parent.scrollLeft += $refs.parent.clientWidth"
-          class="carrousel_btn carrousel_btn-apres" aria-label="slide suivant">→</button>
-  
-          <div class="carrousel_parent-ecrans" x-ref="parent">
-            <div id="ecran-1" class="carrousel_ecran">
-                <figure>
-                    <img class="card__img" src="../public/img/Blade runner/alien.webp" alt="image ecran 1">
-                    <figcaption class="card__title__car=" >Alien (1979)</figcaption>
-                </figure>
-            </div>
-            <div id="ecran-2" class="carrousel_ecran">
-                <figure>
-                    <img class="card__img" src="../public/img/Blade runner/thelma_louise.webp" alt="image ecran 2">
-                    <figcaption class="card__title__car" > Thelma et Louise (1991)</figcaption>
-                </figure>
-            </div>
-            <div id="ecran-3" class="carrousel_ecran">
-                <figure>
-                    <img class="card__img" src="../public/img/Blade runner/1492.webp" alt="image ecran 3">
-                    <figcaption class="card__title__car" >1492 (1992)</figcaption>
-                </figure>
-            </div>
-            <div id="ecran-4" class="carrousel_ecran">
-                <figure>
-                    <img class="card__img" src="../public/img/Blade runner/gladiator.webp" alt="image ecran 4">
-                    <figcaption class="card__title__car" > Gladiator (2000)</figcaption>
-                </figure>
-            </div>
-            <div id="ecran-5" class="carrousel_ecran">
-                <figure>
-                    <img class="card__img" src="../public/img/Blade runner/mars.webp" alt="image ecran 5">
-                    <figcaption class="card__title__car" > Seul sur mars (2015)</figcaption>
-                </figure>
-            </div>
-            <div id="ecran-6" class="carrousel_ecran">
-                <figure>
-                    <img class="card__img" src="../public/img/Blade runner/gucci.webp" alt="image ecran 6">
-                    <figcaption class="card__title__car" >House of Gucci (2021)</figcaption>
-                </figure>
-            </div>
+
+        <div class="galerie__film">
+            <h2 class="titre__subheading">Films Principaux :</h2>
+            <ul class="galerie">
+                <li onclick="document.body.classList.toggle('film-link-open--Alien')">
+                    <h3>Alien</h3>
+                    <img src="../public/img/Blade runner/alien.webp" alt="Affiche Alien">
+                    <div class="galerie__film-link--Alien">
+                        <a href="https://www.allocine.fr/film/fichefilm_gen_cfilm=62.html">Plus d'informations</a>
+                    </div>
+                    <div class="galerie__film-description--Alien">
+                        <p>1979</p>
+                    </div>
+                </li>
+                <li onclick="document.body.classList.toggle('film-link-open--Thelma')">
+                    <h3>Thelma et Louise</h3>
+                    <img src="../public/img/Blade runner/thelma_louise.webp" alt="Affiche Thelma et Louise">
+                    <div class="galerie__film-link--Demonic">
+                        <a href="https://www.senscritique.com/film/demonic/43711023">En savoir plus</a>
+                    </div>
+                    <div class="galerie__film-description--Demonic">
+                        <p>Horreur</p>
+                        <p>2021</p>
+                    </div>
+                </li>
+                <li onclick="document.body.classList.toggle('film-link-open--District9')">
+                    <h4>District 9</h4>
+                    <img src="../public/img/film/filmo/district9.webp" alt="Couverture du film District9">
+                    <div class="galerie__film-link--District9">
+                        <a href="https://www.senscritique.com/film/district_9/371581">En savoir plus</a>
+                    </div>
+                    <div class="galerie__film-description--District9">
+                        <p>Science-fiction</p>
+                        <p>2009</p>
+                    </div>
+                </li>
+                <li onclick="document.body.classList.toggle('film-link-open--Chappie')">
+                    <h4>Chappie</h4>
+                    <img src="../public/img/film/filmo/chapp.webp" alt="Couverture du film Chappie">
+                    <div class="galerie__film-link--Chappie">
+                        <a href="https://www.senscritique.com/film/chappie/8822817">En savoir plus</a>
+                    </div>
+                    <div class="galerie__film-description--Chappie">
+                        <p>Science-fiction</p>
+                        <p>2015</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
 
         <h2 class="h2">Filmographie Complète</h2>
         <h3 class="h3" ><li>1977 : Les Duellistes</li></h3>

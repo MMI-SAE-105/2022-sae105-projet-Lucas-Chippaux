@@ -16,14 +16,17 @@ header {
 }
 
 .header__logo {
-    justify-content: center;
+    position: relative;
+    right: 38px;
 
 
 }
 .header__flag {
-    justify-content: left;
+    right: 110px;
     background-color:var(--white);
     border-style: none;
+    position: relative;
+
     
 }
 

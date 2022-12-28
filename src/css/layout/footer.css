@@ -13,10 +13,13 @@ footer {
     color: var(--white);
     font-size: var(--body);
     list-style-type: none;
+    position: relative;
+    right: 15px;
 
 }
 
 .footer__id {
+    position: relative;
     text-align: center;
     font-size: var(--small-text);
     color: var(--white);

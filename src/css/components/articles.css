@@ -1,24 +1,11 @@
-.intro {
-    background-color: var(--noir);
+.card {
     position: relative;
+
 }
 
 .card__img {
-    border-radius: 5%;
-    margin-top: 12px;
-    position: relative;
-
-}
-
-.card__title {
-    margin-top: 12px;
-    position: relative;
-
-}
-
-.card__description {
-    margin-top: 12px;
-    position: relative;
+    border-radius: 0 50 0 50px;
+    position: fixed;
 
 }
 

@@ -71,3 +71,7 @@ p {
     font-family: 'Oxygen', sans-serif;
     font-size: var(--small-text);
 }
+
+.list__film {
+    list-style: none;
+}

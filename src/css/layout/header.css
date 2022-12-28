@@ -20,12 +20,14 @@ header {
     right: 38px;
 
 
+
 }
 .header__flag {
     position: relative;
     right: 110px;
     background-color:var(--white);
     border-style: none;
+    margin-top: 3px;
    
 }
 

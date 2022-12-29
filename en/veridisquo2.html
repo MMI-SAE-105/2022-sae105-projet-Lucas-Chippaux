@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen,}">
+  <head>
+    <link rel="stylesheet" href="../src/css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>discover-e • Veridis Quo</title>
+    <link rel="icon" href="../public/icones/logo_onglet.svg">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+  </head>
+
+<body class="body">
+     
+    <header class="header">
+        
+        <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen"
+        class="header__menuBtn">
+              <img src="../public/icones/menu.svg" alt="menu">
+        </button>
+        <nav 
+        id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms 
+        class="menu">
+        
+        <ul class="menu">
+          <li><a class="menu__item" href="../en/bladerunner2.html"><img src="../public/icones/film_icone.svg" alt="icone film"> Blade Runner</a></li>
+          <li><a class="menu__item" href="../en/veridisquo2.html"><img src="../public/icones/music_icone.svg" alt="icone music"> Veridis Quo</a></li>
+          <li><a class="menu__item" href="../en/fatherglory.html"><img src="../public/icones/livre_icone.svg" alt="icone livre"> My Father's Glory</a></li>
+          <li><a class="menu__item" href="../en/centerpompidou.html"><img src="../public/icones/lieu_icone.svg" alt="icone lieu"> Centre Pompidou</a></li>
+          <li><a class="menu__item" href="../en/hope.html"><img src="../public/icones/espoir_icone.svg" alt="icone espoir"> Climate Change</a></li>
+          <li><a class="menu__item" href="../en/fear.html"><img src="../public/icones/crainte_icone.svg" alt="icone crainte"> AI development</a></li>
+        </ul>
+    </nav>
+  
+   <a class="header__flag" href="../fr/veridisquo.html">
+     <img src="../public/icones/fr_flag.svg" alt="fr flag">
+   </a>
+   <a class="header__logo" href="../en/index_eng.html">
+    <img src="../public/icones/discover-e_logo.svg" alt="logo discover-e">
+ </a>
+
+ </header>
+
+ <body>
+    <main>
+        <section>
+            <h1 class="h1">“Veridis Quo” : 4 chords, 1000 interpretations...</h1>
+            <img src="../public/img/Veridis Quo/cover_discovery.webp" alt="discovery">
+            <h2 class="h2">A musical jewel</h2>
+            <h3 class="h3">Released in 2001, it is the eleventh track on the album "Discovery", it is an entirely instrumental track. </h3>
+            <img src="../public/img/Veridis Quo/photo_daft_punk.webp" alt="daft punk">
+            <p class="p">Daft Punk photograph</p>
+            <h3 class="h3">If for many, lyrics are an essential factor in feeling emotions, music is first and foremost a to feel emotions, music is first and foremost a set of a set of several notes</h3> 
+            <h3 class="h3">A few chords can be enough to express fear, joy, sadness and this music manages to express all these emotions at the same time. Both melancholic and nostalgic, "Veridis Quo" is a musical gem, despite a loop. A musical gem, despite a 5:45 loop. Simple but terribly effective, that's what can characterize this music.</h3>
+            <h2 class="h2">Daft Punk & French touch</h2>
+            <h3 class="h3">Today, Daft Punk is one of the world's leading music icons. This French duo revolutionised the electro genre, becoming icons of the "French Touch", a sub-genre of electro that appeared in the late 80s. Mixing several inspirations, Funk, disco or House, this sub genre will become very popular in the mid 90's, with the appearance of several artists like Bob Sinclar, Cassius or St Germain, the originality being that they almost all come exclusively from France. From the 2000s onwards, the genre became much less popular, but several generations succeeded the first one, such as the group Justice or Kavinsky.</h3>
+            <img src="../public/img/Veridis Quo/bob_justice.webp" alt="bob et justice">
+            <h2 class="h2">Not a word, emotions</h2>
+            <h3 class="h3">By the absence of lyrics, personal interpretation is allowed. For me, what defines music is not the lyrics or the artist's interpretation, it is the composition. This is where Daft Punk are strong, they succeed in making me feel emotions, in this case melancholy, through a sequence of chords. In short, to touch me.Music doesn't necessarily need words to convey an emotion, sometimes a set of notes and chords can be powerful.</h3>
+            <h3 class="h3">Daft Punk is a band that has influenced the entire music industry. A simple French duo, they ended up being international stars thanks to their particular style and quality composition. "Veridis Quo" is the homophone of "Very disco" or "Disco very" by reversing the letters, giving the name of the album in which the title appears. Also, it may be a play on the Latin word 'Quo vadis', literally 'Where are you going', even the title has several interpretations...</h3>
+            <h3 class="h3">To conclude, the title succeeds admirably in arousing several emotions in the listener: nostalgia, sadness, joy or melancholy.</h3>
+            <img src="../public/img/Veridis Quo/electroma.webp" alt="electroma">
+            <p class="p">Clip from the movie "Daft Punk's Electroma"</p>
+            <h3 class="h3">To discover the discography of Daft Punk:</h3>
+            <h3 class="h3"><li>Homework (1997)</h3></li>
+            <h3 class="h3"><li>Discovery (2001)</h3></li>
+            <h3 class="h3"><li>Human After All (2005)</h3></li>
+            <h3 class="h3"><li>Tron: Legacy (2011)</h3></li>
+            <h3 class="h3"><li>Random Access Memory (2013)</h3></li>
+            <a href="https://open.spotify.com/artist/4tZwfgrHOc3mvqYlEYSvVi"><img src="../public/img/Veridis Quo/daft_albums.webp" alt="albums daft punk">
+            </a>
+
+     </section>
+      </header>
+
+  <footer>
+        <nav>
+        <ul>
+          <p class="footer__item"><a href="../en/glossary.html">Glossary</a></p>
+          <p class="footer__item"><a href="../en/about.html">About</a></p>
+          <p class="footer__item"><a href="../en/contact2.html">Contact</a></p>
+          <p class="footer__item"><a href="../en/otherprojects.html">Other Projects</a></p>
+          </ul>
+        </nav>
+        <ul class="footer__social">
+          <li>
+              <a href="https://www.youtube.com/channel/UCb55VMSoRkX2260uyUtXZ4w/videos?view_as=subscriber">
+                  <img class="footer__social--icon" src="../public/icones/youtube_logo.svg" alt="icone youtube">
+              </a>
+          </li>
+          <li>
+              <a href="https://twitter.com/wax_mp4">
+                  <img class="footer__social--icon" src="../public/icones/twitter_logo.svg" alt="icone twitter">
+              </a>
+          </li>
+          <li>
+              <a href="https://www.instagram.com/luc.mp4/">
+                  <img class="footer__social--icon" src="../public/icones/instagram_logo.svg" alt="icone instagram">
+              </a>
+          </li>
+          <li>
+              <a href="https://www.linkedin.com/in/lucas-chippaux-214bb2252/">
+                  <img class="footer__social--icon" src="../public/icones/linkedin_logo.svg" alt="icone linkedin">
+              </a>
+          </li>
+      </ul>
+      <a href="mailto:lucas.chippaux@gmail.com" class="footer__mail">lucas.chippaux@gmail.com</a>
+      <p class="footer__explication">Project carried out as part of an educational in the MMI department of Montbéliard</p>
+      <div class="footer__logommi">
+          <a href="http://mmimontbeliard.com/"> <img src="../public/icones/MMI_dut_white.svg" alt="logo MMI">
+      </div>
+      <div class="footer__id">   
+          <p>Lucas CHIPPAUX MMI1 A1</p>
+      </div>
+    </footer>
+    </body>
+    </html>

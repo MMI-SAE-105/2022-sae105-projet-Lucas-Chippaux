@@ -75,3 +75,12 @@ p {
 .list__film {
     list-style: none;
 }
+
+.project {
+    color: var(--noir);
+}
+.project__list {
+    list-style: none;
+    position: relative;
+    right: 22px;
+}

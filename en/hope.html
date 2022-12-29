@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen,}">
+  <head>
+    <link rel="stylesheet" href="../src/css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>discover-e • Hope</title>
+    <link rel="icon" href="../public/icones/logo_onglet.svg">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+  </head>
+
+<body class="body">
+     
+    <header class="header">
+        
+        <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen"
+        class="header__menuBtn">
+              <img src="../public/icones/menu.svg" alt="menu">
+        </button>
+        <nav 
+        id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms 
+        class="menu">
+        
+        <ul class="menu">
+            <li><a class="menu__item" href="../en/bladerunner2.html"><img src="../public/icones/film_icone.svg" alt="icone film"> Blade Runner</a></li>
+            <li><a class="menu__item" href="../en/veridisquo2.html"><img src="../public/icones/music_icone.svg" alt="icone music"> Veridis Quo</a></li>
+            <li><a class="menu__item" href="../en/fatherglory.html"><img src="../public/icones/livre_icone.svg" alt="icone livre"> My Glory's Father</a></li>
+            <li><a class="menu__item" href="../en/centerpompidou.html"><img src="../public/icones/lieu_icone.svg" alt="icone lieu"> Centre Pompidou</a></li>
+            <li><a class="menu__item" href="../en/hope.html"><img src="../public/icones/espoir_icone.svg" alt="icone espoir"> Climate Change</a></li>
+            <li><a class="menu__item" href="../en/fear.html"><img src="../public/icones/crainte_icone.svg" alt="icone crainte"> AI Development</a></li>>
+        </ul>
+    </nav>
+  
+   <a class="header__flag" href="../fr/espoir.html">
+     <img src="../public/icones/fr_flag.svg" alt="fr flag">
+   </a>
+   <a class="header__logo" href="../en/index_eng.html">
+    <img src="../public/icones/discover-e_logo.svg" alt="logo discover-e">
+ </a>
+
+ </header>
+
+<body>
+ <main>
+ <section> 
+    <h1 class="h1">Rechauffement climatique : Une solution ?</h1>
+    <img src="../public/img/Espoir/photo_illu.webp" alt="terre">
+    <h2 class="h2">Une problème mondiale </h2>
+    <h3 class="h3">Le réchauffement climatique est une des plus importantes problématiques de notre siècle. 
+        La situation devient de plus en plus critique au fil des années et pour le moment aucune vraie solution n’est possible. Et cela inquiète de nombreuses personnes.</h3>
+    <h3 class="h3">Le plus important pour ceux qui veulent protéger la planète est de comprendre que le réchauffement climatique n'est pas ce phénomène dans un premier temps et qu’il n’est pas récent</h3>
+    <h2 class="h2">C'est quoi exactement ?</h2>
+    <h3 class="h3">Cela désigne une augmentation de la température moyenne de la planète, cette augmentation est produite dû à certaines substances qui absorbant plus de rayonnement solaire que d'autres, entraînant alors une modification de l'équilibre entre l'énergie thermique entrante et sortante sur la Terre.
+        Pour décrire le changement climatique, on peut parler de l’augmentation de la fréquence des canicules, l’absence de précipitation ou encore l’augmentation de la fréquence des tempêtes par exemple.</h3>
+    <h2 class="h2">Une solution : l'Art</h2>
+    <h3 class="h3">Notre génération, celle des années 2000, est durement concerné par le réchauffement climatique. 
+        Si certains sont déjà sensibilisé à ce sujet, beaucoup, que ce soit les plus jeunes ou simplement des personnes n’ayant pas eu l’opportunité de s’intéresser à cette problématique, ne sont pas assez informé au sujet du changement climatique.
+        En éduquant suffisamment les prochaines générations, on peut espérer trouver une véritable solution face à ce problème. </h3>
+    <h3 class="h3">Pour cela, l’Art serait un excellent outil. La culture artistique est un bon de vulgariser les problèmes de notre société, depuis toujours l’Art et les artistes ont des messages sociaux-politique à faire passer.
+        Informer de manière ludique et créative est un bon moyen de faire passer un message, de faire ressentir quelque chose ou d’informer certaines personnes.</h3>
+    <h3 class="h3">Beaucoup d’artistes aujourd’hui sont pleinement engagé dans cette cause qui nous touche tous. On pourrait en citer plusieurs comme Banksy ou Lorenzo Quinn, les plus connus et médiatisé, militant activement dans leurs œuvres contre le réchauffement climatique et critiquant également un système ayant tendance à passer sous silence cette problématique.</h3>
+    <div style='display:flex'>
+        <div><img src="../public/img/Espoir/banksy.webp"></div>
+        <div><img src="../public/img/Espoir/lorenzo.webp"></div>
+        </div>
+    <div style='display:flex'>
+        <div><p>Banksy, I Remember When All This Was Trees, 2010</p></div>
+        <div><p>Lorenzo Quinn, Support, 2017</p></div>
+    </div>
+
+ </section>
+
+ <footer>
+  <nav>
+  <ul>
+    <p class="footer__item"><a href="../fr/glossaire.html">Glossaire</a></p>
+    <p class="footer__item"><a href="../fr/apropos.html">A propos</a></p>
+    <p class="footer__item"><a href="../fr/contact.html">Contact</a></p>
+    <p class="footer__item"><a href="../fr/autresprojets.html">Autres projets</a></p>
+    </ul>
+  </nav>
+  <ul class="footer__social">
+    <li>
+        <a href="https://www.youtube.com/channel/UCb55VMSoRkX2260uyUtXZ4w/videos?view_as=subscriber">
+            <img class="footer__social--icon" src="../public/icones/youtube_logo.svg" alt="icone youtube">
+        </a>
+    </li>
+    <li>
+        <a href="https://twitter.com/wax_mp4">
+            <img class="footer__social--icon" src="../public/icones/twitter_logo.svg" alt="icone twitter">
+        </a>
+    </li>
+    <li>
+        <a href="https://www.instagram.com/luc.mp4/">
+            <img class="footer__social--icon" src="../public/icones/instagram_logo.svg" alt="icone instagram">
+        </a>
+    </li>
+    <li>
+        <a href="https://www.linkedin.com/in/lucas-chippaux-214bb2252/">
+            <img class="footer__social--icon" src="../public/icones/linkedin_logo.svg" alt="icone linkedin">
+        </a>
+    </li>
+</ul>
+<a href="mailto:lucas.chippaux@gmail.com" class="footer__mail">lucas.chippaux@gmail.com</a>
+<p class="footer__explication">Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</p>
+<div class="footer__logommi">
+    <a href="http://mmimontbeliard.com/"> <img src="../public/icones/MMI_dut_white.svg" alt="logo MMI">
+</div>
+<div class="footer__id">   
+    <p>Lucas CHIPPAUX MMI1 A1</p>
+</div>
+</footer>
+</body>
+</html>

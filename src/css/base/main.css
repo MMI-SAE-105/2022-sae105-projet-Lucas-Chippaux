@@ -85,7 +85,9 @@ p {
     right: 22px;
     color: var(--noir);
 }
-
+.project__name a {
+    color: var(--noir);
+}
 .project__name {
     color: var(--noir);
 }

@@ -43,31 +43,37 @@
 
  <body>
     <main>
-        <section>
-    
-        <h1 class="h1">Contact</h1>
-          <div class="contact__name">
-            <label for="first-name-last-name">Prénom, Nom</label>
-            <input type="text" name="first-name-last-name" id="first-name-last-name" required>
-          </div>
-          <div class="contact__mail">
-            <label for="email">E-mail</label>
-            <input type="text" name="email" id="email" required>
-          </div>
-          <div class="contact__phone">
-            <label for="phone">Téléphone</label>
-            <input type="text" name="phone" id="phone" required>
-          </div>
-          <div class="contact__object">
-            <label for="objectmess">Object du message</label>
-            <input type="text" name="objectmess" id="objectmess" required>
-          </div>
-          <div class="contact__mess">
-            <label for="message">Message</label>
-            <textarea name="message" id="message" rows="15" required></textarea>
-          </div>
-          <button type="submit">Envoyez</button>
-        </section>
+      <form class="form__container" action="#">
+        <h2 class="form__title">Contact</h2>
+
+        <p class="form__input">
+          <label for="firstname">Nom, prénom</label>
+            <input class="form_box" type="text" id="name" name="name" value="" placeholder="Entrer votre nom, prénom">
+        </p>
+
+        <p class="form__input">
+          <label for="lastname">E-mail</label>
+            <input class="form_box" type="email" id="email" name="last-name" value="" placeholder="Entrer votre adresse mail">
+        </p>
+
+        <p class="form__input">
+          <label for="firstname">Téléphone</label>
+            <input class="form_box" type="tel" id="téléphone" name="téléphone" value="" placeholder="Entrer votre numéro de téléphone">     
+        </p>
+
+        <p class="form__input">
+          <label for="birthday">Sujet de votre message</label>
+            <input class="form_box" type="text" id="sujet" name="message" value="" placeholder="Entrer le sujet de votre message">     
+        </p>
+
+        <p class="form__input">
+          <label for="address">Message</label>
+            <textarea class="form_box" rows="6" id="message" name="message" value="" placeholder="Entrer votre message"> </textarea>
+        </p>
+
+        <button class="form_button" type="submit">Envoyez</button>
+
+      </form>
     </main>
 
     <footer>

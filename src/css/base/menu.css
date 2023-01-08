@@ -22,6 +22,7 @@
 .menu__item {
   position: relative;
   right: 32px;
+  top: 12px;
   color: var(--noir);
   font-family: 'Hind', sans-serif;
   list-style-type: none;

@@ -1,15 +1,17 @@
 header {
     background-color:var(--white);
-    display: flex;
-    justify-content: space-between;
-    justify-content: center;
-    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
 
 }
 
 
 .header__menuBtn {
-    left: 250px;
+    left: 325px;
+    top: -3px;
     background-color:var(--white);
     border-style: none;
     
@@ -17,14 +19,16 @@ header {
 
 .header__logo {
     position: relative;
-    right: 38px;
+    left: 30px;
+    top: -6px;
 
 
 
 }
 .header__flag {
     position: relative;
-    right: 110px;
+    right: 40px;
+    top: 1px;
     background-color:var(--white);
     border-style: none;
     margin-top: 3px;

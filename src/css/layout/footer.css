@@ -30,7 +30,7 @@ footer {
     color: var(--white);
     font-family: 'Oxygen', sans-serif;
     font-size: var(--small-text);
-
+    text-align: center;
 }
 
 .footer__logommi {

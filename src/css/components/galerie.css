@@ -7,10 +7,12 @@
     position: relative;
     color: var(--white);
     list-style-type: none;
+
 }
 
 .galerie__film {
     padding-bottom: 20px;
+    
 }
 
 .galerie>li:hover {
@@ -32,6 +34,7 @@
     margin-bottom: -20px;
     transition: all 0.4s;
     opacity: 0.2;
+    
 }
 
 .film-link-open--Alien .galerie__film-link--Alien,
